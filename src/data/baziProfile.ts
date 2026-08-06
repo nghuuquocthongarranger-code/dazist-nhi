@@ -8,13 +8,13 @@ export interface PillarData {
 }
 
 export const personalInfo = {
-  name: "Nguyễn Hữu Quốc Thống",
-  birthDate: "05/05/2001 (Dương lịch)",
-  gender: "Nam mệnh",
+  name: "Trịnh Hoàng Nhi",
+  birthDate: "13/06/2001 (Dương lịch)",
+  gender: "Nữ mệnh",
   napAm: "Bạch Lạp Kim (白蠟金)",
   napAmDesc: [
     "Đây là một trong 30 Nạp Âm Ngũ Hành của hệ Lục Thập Hoa Giáp, ứng với cặp năm Canh Thìn – Tân Tỵ (năm sinh Tân Tỵ của bạn).",
-    "Khác với Ngũ Hành của Nhật Chủ (Mậu Thổ — dùng để luận toàn bộ Bát Tự), Nạp Âm là ngũ hành tính riêng theo trụ Năm, thường dùng để xem tuổi hợp/khắc, chọn ngày cưới hỏi, phong thủy nhà cửa.",
+    "Khác với Ngũ Hành của Nhật Chủ (Đinh Hỏa — dùng để luận toàn bộ Bát Tự), Nạp Âm là ngũ hành tính riêng theo trụ Năm, thường dùng để xem tuổi hợp/khắc, chọn ngày cưới hỏi, phong thủy nhà cửa.",
     "Bạch Lạp Kim mang hình ảnh kim loại còn ở dạng thô mềm (như sáp nến), chưa được tôi luyện thành khí cụ — biểu trưng cho tiềm năng cần thời gian mài giũa, tính cách linh hoạt, thích nghi tốt nhưng cần \"lửa\" (thử thách, rèn luyện) để trở nên sắc bén và vững vàng hơn.",
   ],
 };
@@ -25,220 +25,216 @@ export const fourPillars: PillarData[] = [
     can: "Tân",
     canNote: "Âm Kim",
     chi: "Tỵ",
-    canTenGod: "Thương Quan",
+    canTenGod: "Thiên Tài",
     tangCan: [
-      { can: "Bính", tenGod: "Thiên Ấn" },
-      { can: "Mậu", tenGod: "Tỉ Kiên" },
-      { can: "Canh", tenGod: "Thực Thần" },
+      { can: "Bính", tenGod: "Kiếp Tài" },
+      { can: "Mậu", tenGod: "Thương Quan" },
+      { can: "Canh", tenGod: "Chính Tài" },
     ],
   },
   {
     position: "Tháng",
-    can: "Nhâm",
-    canNote: "Dương Thủy",
-    chi: "Thìn",
-    canTenGod: "Thiên Tài",
+    can: "Giáp",
+    canNote: "Dương Mộc",
+    chi: "Ngọ",
+    canTenGod: "Chính Ấn",
     tangCan: [
-      { can: "Mậu", tenGod: "Tỉ Kiên" },
-      { can: "Ất", tenGod: "Chính Quan" },
-      { can: "Quý", tenGod: "Chính Tài" },
+      { can: "Đinh", tenGod: "Tỷ Kiên" },
+      { can: "Kỷ", tenGod: "Thực Thần" },
     ],
   },
   {
     position: "Ngày",
-    can: "Mậu",
-    canNote: "Dương Thổ",
-    chi: "Thìn",
+    can: "Đinh",
+    canNote: "Âm Hỏa",
+    chi: "Mùi",
     canTenGod: "Nhật Chủ",
     tangCan: [
-      { can: "Mậu", tenGod: "Tỉ Kiên" },
-      { can: "Ất", tenGod: "Chính Quan" },
-      { can: "Quý", tenGod: "Chính Tài" },
+      { can: "Kỷ", tenGod: "Thực Thần" },
+      { can: "Đinh", tenGod: "Tỷ Kiên" },
+      { can: "Ất", tenGod: "Thiên Ấn" },
     ],
   },
   {
     position: "Giờ",
-    can: "Bính",
-    canNote: "Dương Hỏa",
-    chi: "Thìn",
-    canTenGod: "Thiên Ấn",
+    can: "Mậu",
+    canNote: "Dương Thổ",
+    chi: "Thân",
+    canTenGod: "Thương Quan",
     tangCan: [
-      { can: "Mậu", tenGod: "Tỉ Kiên" },
-      { can: "Ất", tenGod: "Chính Quan" },
-      { can: "Quý", tenGod: "Chính Tài" },
+      { can: "Canh", tenGod: "Chính Tài" },
+      { can: "Nhâm", tenGod: "Chính Quan" },
+      { can: "Mậu", tenGod: "Thương Quan" },
     ],
   },
 ];
 
-export const nhatChu = { can: "Mậu", note: "Dương Thổ" };
+export const nhatChu = { can: "Đinh", note: "Âm Hỏa" };
 
 export const tenGodRatios = [
-  { name: "Tỉ Kiên", percent: 38.8 },
-  { name: "Thiên Ấn", percent: 20 },
-  { name: "Thương Quan", percent: 12.5 },
-  { name: "Thiên Tài", percent: 12.5 },
-  { name: "Chính Quan", percent: 11.3 },
-  { name: "Chính Tài", percent: 3.7 },
-  { name: "Thực Thần", percent: 1.2 },
-  { name: "Kiếp Tài", percent: 0 },
+  { name: "Thương Quan", percent: 20 },
+  { name: "Tỉ Kiên", percent: 14.3 },
+  { name: "Chính Ấn", percent: 14.3 },
+  { name: "Thiên Tài", percent: 14.3 },
+  { name: "Thực Thần", percent: 12.9 },
+  { name: "Chính Tài", percent: 10 },
+  { name: "Kiếp Tài", percent: 8.6 },
+  { name: "Chính Quan", percent: 4.3 },
+  { name: "Thiên Ấn", percent: 1.4 },
   { name: "Thất Sát", percent: 0 },
-  { name: "Chính Ấn", percent: 0 },
 ];
 
 export const bodyStrength = {
-  verdict: "THÂN CỰC VƯỢNG",
+  verdict: "THÂN VƯỢNG",
   cachCuc: "Kiến Lộc",
   paragraphs: [
-    "Nhật Chủ Mậu (Thổ) ở thế THÂN CỰC VƯỢNG: lực phe sinh/trợ (Tỉ Kiếp + Ấn) chiếm tới ~58.8% tổng khí toàn cục — chủ yếu do ba trụ Thìn liên tiếp cộng dồn khối Thổ rất lớn, cộng thêm Bính Hỏa (Thiên Ấn) sinh trợ thêm.",
-    "Cách cục: Kiến Lộc — Tàng Can chính khí của Chi Tháng (Thìn) là Mậu, trùng Tỉ Kiên với Nhật Chủ. Thân vượng ở mức cực cao đòi hỏi phải có lực Khắc–Tiết–Hao đủ mạnh mới cân bằng được cách cục, nếu không dễ rơi vào thế \"vượng cực vô dụng\": bảo thủ, ỳ trệ, khó tiếp thu.",
+    "Nhật Chủ Đinh (Hỏa) sinh vào tháng Ngọ — đúng vị trí Đế Vượng/Lộc của Hỏa trong vòng Trường Sinh — nên gọi là \"đắc lệnh\", yếu tố quan trọng nhất khi định Vượng/Nhược. Cách cục Kiến Lộc: tàng can chính khí của Chi Tháng (Ngọ) là Đinh, trùng Tỷ Kiên với Nhật Chủ. Cộng thêm Chi Ngày (Mùi) cũng tàng Đinh (đắc địa) và Giáp Mộc thấu can ở Tháng sinh trợ thêm, Nhật Chủ vững gốc, đủ sức gánh vác một lá số có Thực-Thương-Tài khá đầy đủ.",
+    "Điểm khác biệt so với một Thân cực vượng thuần túy: bên cạnh phe Tỷ/Kiếp/Ấn (~38.6%), lá số còn có Thực Thần – Thương Quan (Thổ, ~32.9%) và Tài tinh (Kim, ~24.3%) khá dồi dào — tạo thành một dòng chảy \"sinh – tiết – sinh\" khá mạch lạc (Hỏa sinh Thổ, Thổ sinh Kim). Đây là lá số Thân vượng có lối thoát tốt, miễn là biết tận dụng đúng hướng Thực-Thương-Tài thay vì chỉ dựa vào bản năng (Tỷ Kiếp) hay được bao bọc (Ấn).",
   ],
 };
 
 export const dungHyKy = [
   {
     role: "dung-than" as const,
-    colorElement: "moc" as const,
+    colorElement: "kim" as const,
     title: "Dụng Thần",
-    element: "Mộc (Quan Sát)",
-    tenGod: "Chính Quan (Ất Mộc)",
-    desc: "Lực duy nhất đủ sức khắc chế trực tiếp khối Thổ quá vượng, cắt được thế bảo thủ/tranh giành của Tỉ Kiếp. (Ất Mộc — chỉ ẩn tàng trong 3 Thìn, chưa thấu can)",
+    element: "Kim (Tài Tinh)",
+    tenGod: "Chính Tài (Canh) & Thiên Tài (Tân)",
+    desc: "Đã có sẵn lực đáng kể trong lá số (~24.3%) — vừa hao/tiết bớt Hỏa qua đường sinh xuất (Tài là thứ Nhật Chủ khắc ra), vừa sinh thêm cho Thủy (Kim sinh Thủy) để nuôi dưỡng Quan Tinh vốn đang rất mỏng. Là lực khả thi nhất để giữ thế quân bình cho lá số ngay từ hiện tại.",
   },
   {
     role: "hy-than" as const,
     colorElement: "thuy" as const,
     title: "Hỷ Thần",
-    element: "Thủy",
-    tenGod: "Thiên Tài (Nhâm) & Chính Tài (Quý)",
-    desc: "Đi đôi với Mộc theo nguyên lý Thủy sinh Mộc, nuôi dưỡng và tiếp sức để Mộc đủ lực phát huy. (Nhâm Thủy thấu can ở Tháng; Quý Thủy ẩn tàng cả 3 Thìn)",
+    element: "Thủy (Quan Tinh)",
+    tenGod: "Chính Quan (Nhâm)",
+    desc: "Về lý thuyết đây mới là lực khắc chế trực tiếp Hỏa vượng, nhưng trong lá số Thủy cực yếu (chỉ ~4.3%, một mình Nhâm tàng trung khí trong Thân) — là \"chỗ khuyết\" rõ nhất của lá số. Cần được Kim sinh trợ thêm mới đủ sức phát huy vai trò khắc chế và mang lại kỷ luật, chừng mực.",
   },
   {
     role: "hy-than-phu" as const,
-    colorElement: "kim" as const,
-    title: "Hỷ Thần phụ",
-    element: "Kim",
-    tenGod: "Thương Quan (Tân)",
-    desc: "Chỉ có tác dụng tiết bớt Thổ, không trực tiếp khắc chế được, và còn khắc ngược lại Mộc nếu quá vượng nên chỉ dùng ở mức bổ trợ. (Tân Kim thấu can ở Năm)",
-  },
-  {
-    role: "ky-than" as const,
     colorElement: "tho" as const,
-    title: "Kỵ Thần",
-    element: "Thổ",
-    tenGod: "Tỉ Kiên (Mậu) & Kiếp Tài (Kỷ)",
-    desc: "Vốn đã dư thừa nghiêm trọng (Tỉ Kiên, Kiếp Tài chiếm ~38.8%) — tối kỵ gặp thêm, càng khiến Thân vượng cực đoan, dễ bảo thủ, ỳ trệ, tranh giành.",
+    title: "Hỷ Thần phụ",
+    element: "Thổ (Thực – Thương)",
+    tenGod: "Thực Thần (Kỷ) & Thương Quan (Mậu)",
+    desc: "Chiếm tỉ trọng lớn nhất lá số (~32.9%) — tiết bớt khí Hỏa dư thừa một cách tự nhiên, đồng thời sinh ra Kim (Dụng Thần) nên đóng vai trò cầu nối rất tích cực trong dòng chảy Hỏa → Thổ → Kim → Thủy.",
   },
   {
     role: "ky-than" as const,
     colorElement: "hoa" as const,
     title: "Kỵ Thần",
-    element: "Hỏa",
-    tenGod: "Thiên Ấn (Bính)",
-    desc: "Thiên Ấn Hỏa sinh thêm cho khối Thổ vốn đã dư — tối kỵ gặp thêm, dễ tạo áp lực/kỳ vọng nặng nề và củng cố thêm thế ỳ trệ của Thổ.",
+    element: "Hỏa (Tỷ – Kiếp)",
+    tenGod: "Tỷ Kiên (Đinh) & Kiếp Tài (Bính)",
+    desc: "Nhật Chủ vốn đã đắc lệnh rất vượng — gặp thêm Tỷ Kiếp chỉ càng khiến bản thân cố chấp, nóng vội, dễ tranh giành hơn thấu hiểu.",
+  },
+  {
+    role: "ky-than" as const,
+    colorElement: "moc" as const,
+    title: "Kỵ Thần",
+    element: "Mộc (Ấn Tinh)",
+    tenGod: "Chính Ấn (Giáp) & Thiên Ấn (Ất)",
+    desc: "Ấn tinh sinh thêm cho Hỏa vốn đã vượng — dễ tạo tâm lý ỷ lại, được bao bọc quá mức thành ra thiếu chủ động, hoặc ngược lại cảm thấy kỳ vọng/áp lực từ người thân (đặc biệt từ mẹ) nặng nề hơn là nâng đỡ nhẹ nhàng.",
   },
 ];
 
-export const tamThinTuHinh = {
-  title: "Tam Thìn Tự Hình",
-  paragraphs: [
-    "Ba trụ Thìn liên tiếp ở Tháng – Ngày – Giờ tạo thành thế Tam Thìn Tự Hình — không phải xung đối kháng từ bên ngoài mà là kiểu \"tự mình tạo áp lực cho chính mình\", lặp đi lặp lại theo thời gian.",
-    "Thế này còn được củng cố thêm bởi Thần Sát Thiên La xuất hiện đủ cả 4/4 trụ — chủ đề xuyên suốt cuộc đời là học cách vượt qua những giới hạn, bó buộc mà phần nhiều đến từ chính cách bản thân phản ứng với hoàn cảnh.",
-  ],
-};
-
 export const elementRatios = [
-  { element: "tho" as const, label: "Thổ", percent: 38.8 },
-  { element: "hoa" as const, label: "Hỏa", percent: 20 },
-  { element: "thuy" as const, label: "Thủy", percent: 16.3 },
-  { element: "kim" as const, label: "Kim", percent: 13.8 },
-  { element: "moc" as const, label: "Mộc", percent: 11.2 },
+  { element: "tho" as const, label: "Thổ", percent: 32.9 },
+  { element: "kim" as const, label: "Kim", percent: 24.3 },
+  { element: "hoa" as const, label: "Hỏa", percent: 22.9 },
+  { element: "moc" as const, label: "Mộc", percent: 15.7 },
+  { element: "thuy" as const, label: "Thủy", percent: 4.3 },
 ];
 
 export const family = [
   {
     role: "Cha",
-    tenGod: "Thiên Tài (Nhâm Thủy, thấu can ở trụ Tháng)",
-    desc: "Hình ảnh người cha khá rõ nét, có ảnh hưởng lớn đến bạn đặc biệt trong giai đoạn thanh thiếu niên. Thiên Tài là Hỷ Thần nên nhìn chung cha là người có năng lực tài chính/xoay xở tốt, có thể là chỗ dựa vật chất; tuy vậy Thiên Tài cũng mang tính \"quảng giao, không chỉ lo cho một mình gia đình\" nên đôi lúc cảm giác cha không dành trọn thời gian cho riêng bạn.",
+    tenGod: "Thiên Tài (Tân Kim, thấu can ở trụ Năm)",
+    desc: "Cha xuất hiện sớm và rõ nét (trụ Năm), là Dụng Thần nên nhìn chung là người có năng lực xoay xở, tạo dựng tài chính khá tốt — ảnh hưởng tích cực và khá đậm nét đến cách bạn nhìn nhận về tiền bạc, công việc ngay từ nhỏ.",
   },
   {
     role: "Mẹ",
-    tenGod: "Thiên Ấn (Bính Hỏa, ở trụ Giờ)",
-    desc: "Khác với cha xuất hiện sớm ở cung Tháng, hình ảnh mẹ lại nằm ở cung Giờ — cung muộn nhất trong 4 trụ. Gợi ý ảnh hưởng của mẹ có thể đến muộn hơn hoặc mối gắn kết sâu sắc dần về sau. Thiên Ấn là Kỵ Thần nên đôi lúc sự quan tâm/bảo bọc của mẹ vô tình lại trở thành một dạng áp lực hoặc kỳ vọng nặng nề hơn là nâng đỡ nhẹ nhàng.",
+    tenGod: "Ấn tinh (Giáp Mộc thấu can ở trụ Tháng, đắc lệnh)",
+    desc: "Mẹ xuất hiện ở trụ Tháng — giai đoạn thời thơ ấu/niên thiếu, gắn bó và có ảnh hưởng sâu đậm, đắc lệnh nên tiếng nói của mẹ có trọng lượng lớn trong gia đình. Vì Ấn là Kỵ Thần nên sự quan tâm, bao bọc của mẹ đôi lúc lại vô tình trở thành khuôn khổ hoặc kỳ vọng khiến bạn cảm thấy ràng buộc hơn là được tự do.",
   },
   {
     role: "Anh chị em, bạn bè, đồng nghiệp",
-    tenGod: "Tỉ Kiếp (cực kỳ dày đặc, ~38.8%)",
-    desc: "Nhóm lục thân chiếm tỉ trọng lớn nhất trong cả lá số. Vòng quan hệ xã hội rất rộng, nhiều anh em/bạn bè/đồng nghiệp xuất hiện xuyên suốt cuộc đời, nhưng vì đây là Kỵ Thần nên cũng tiềm ẩn cạnh tranh ngầm, dễ bị so bì hơn thiệt, hoặc san sẻ công sức/lợi ích không đều — cần tỉnh táo khi hợp tác kinh doanh hay góp vốn chung.",
+    tenGod: "Tỷ Kiếp (~22.9% gộp cả Hỏa)",
+    desc: "Vòng quan hệ khá rộng và có phần đông đảo, nhưng vì đây là Kỵ Thần nên tiềm ẩn cạnh tranh ngầm hoặc dễ bị so bì hơn thiệt — cần tỉnh táo khi hợp tác làm ăn, góp vốn chung với bạn bè/anh chị em.",
   },
   {
-    role: "Vợ",
-    tenGod: "Chính Tài (Quý Thủy, ẩn tàng trong cả 3 Thìn — Tháng, Ngày, Giờ)",
-    desc: "Vợ hiện diện rất nhiều trong lá số, đặc biệt nằm ngay trong Chi Ngày (cung Phu Thê) — nhưng ở dạng ẩn tàng, không thấu lộ ra Thiên Can. Giá trị thật của người vợ (sự chu đáo, đảm đang, là Hỷ Thần thật sự tốt cho bạn) cần thời gian, sự tinh tế và chân thành mới \"nhìn thấy\" được, chứ không phô bày ngay từ đầu.",
+    role: "Chồng",
+    tenGod: "Chính Quan (Nhâm Thủy, ẩn tàng trong Chi Giờ)",
+    desc: "Chồng chỉ hiện diện dưới dạng ẩn tàng và nằm ở trụ Giờ — cung muộn nhất trong Tứ Trụ, gợi ý nhân duyên đến khá muộn hoặc phải quan sát/thấu hiểu kỹ mới nhận ra giá trị thật. Vì Quan Tinh là Hỷ Thần nhưng lực còn mỏng (chỉ ~4.3%), nên hôn nhân cần chủ động vun đắp, không nên trông chờ hoàn toàn vào duyên số.",
+  },
+  {
+    role: "Con cái",
+    tenGod: "Thực Thần – Thương Quan (Kỷ, Mậu — chiếm tỉ trọng lớn nhất lá số)",
+    desc: "Cung con cái rất dồi dào và đồng thời là Hỷ Thần phụ — con cái nhiều khả năng là điểm tựa tinh thần lớn, mang lại niềm vui, thành tựu thật sự và là \"lối thoát\" giúp cân bằng lại cá tính mạnh mẽ, đôi khi nóng vội của bản thân.",
   },
 ];
 
 export const marriage = [
-  "Cung Phu Thê (Chi Ngày = Thìn) nằm ngay trong thế Tam Thìn Tự Hình với cả cung Tháng và cung Giờ — hôn nhân dễ trải qua giai đoạn căng thẳng, mâu thuẫn có tính lặp lại, nhiều khả năng do cả hai vô tình tạo áp lực cho nhau hơn là do tác động từ bên ngoài.",
-  "Tài tinh (Cha, Nhâm Thủy) khắc Ấn tinh (Mẹ, Bính Hỏa) — cha mẹ có thể không hoàn toàn hòa hợp quan điểm, phần nào ảnh hưởng đến hình mẫu hôn nhân bạn tiếp thu từ nhỏ.",
-  "Vỏ ngoài cung Phu Thê (Thổ) là Kỵ Thần — hôn nhân có thể mang cảm giác nặng nề, trách nhiệm, ràng buộc. Nhưng lõi bên trong (Quý Thủy — bản chất người vợ) lại là Hỷ Thần: cần thời gian để hai người thấu hiểu nhau qua lớp áp lực bên ngoài, càng về sau hôn nhân càng có xu hướng ổn định và là điểm tựa thật sự.",
+  "Cung Phu Quân (Chi Giờ = Thân) nằm khá xa cung Phu Thê truyền thống (Chi Ngày = Mùi) — Thân và Mùi không có quan hệ hình/xung/hợp trực tiếp, gợi ý hôn nhân không chịu nhiều áp lực nội tại lặp lại như kiểu Tự Hình, nhưng cũng vì vậy mà không tự nhiên \"đến gần\" — cần chủ động tìm kiếm, ít khi tình cờ mà có.",
+  "Quan Tinh (chồng) là Thủy, vốn là yếu tố yếu nhất lá số — nên phần lớn hành trình tìm được người phù hợp sẽ gắn liền với việc bản thân phát triển đúng hướng Tài (Kim) trước, vì Tài sinh Quan: sự nghiệp/tài chính ổn định thường đi trước, kéo theo nhân duyên tốt đẹp theo sau chứ không phải ngược lại.",
+  "Thân vượng, cá tính mạnh (Tỷ Kiếp khá đậm) kết hợp Quan Tinh mỏng — cần chọn người bạn đời đủ vững vàng, không quá nhu nhược, nếu không dễ rơi vào thế một người quán xuyến hoàn toàn, người kia trở nên mờ nhạt trong mối quan hệ.",
 ];
 
 export const health = [
   {
+    organ: "Tim mạch, huyết áp, mắt",
+    element: "hoa" as const,
+    note: "Hỏa khá vượng (22.9%) và đắc lệnh — cần chú ý các vấn đề liên quan tim mạch, huyết áp, dễ nóng nảy/mất ngủ khi căng thẳng kéo dài. Nên ưu tiên các bộ môn giúp hạ hỏa: bơi lội, yoga, thiền.",
+  },
+  {
     organ: "Hệ tiêu hóa — dạ dày, tì vị",
     element: "tho" as const,
-    note: "Thổ quá vượng (38.8%) — bộ phận cần chú ý nhất. Dễ ăn uống chậm tiêu, đầy bụng, tích mỡ/tích nước vùng bụng; nên tầm soát định kỳ (viêm loét, trào ngược) nếu ăn uống thất thường.",
+    note: "Thổ chiếm tỉ trọng lớn nhất (32.9%) — dễ ăn uống thất thường, đầy bụng nếu sinh hoạt không điều độ; nên ăn đúng giờ, tránh bỏ bữa.",
   },
   {
-    organ: "Gan, mật",
-    element: "moc" as const,
-    note: "Mộc bị vây khắc, chỉ 11.2% — đáng lưu tâm hàng đầu vì đây chính là Dụng Thần nhưng bị Thổ bủa vây tứ phía. Biểu hiện: căng thẳng thần kinh, khó ngủ, nóng trong người — Đông y gọi là can khí uất kết. Ưu tiên vận động ngoài trời, hạn chế rượu bia, thiền/đi bộ trong thiên nhiên chính là cách nuôi dưỡng Dụng Thần thiết thực nhất.",
+    organ: "Phổi, hệ hô hấp, da",
+    element: "kim" as const,
+    note: "Kim khá vượng (24.3%, là Dụng Thần) — nhìn chung là điểm mạnh về thể trạng, nhưng nên tránh môi trường ô nhiễm/khói bụi kéo dài để giữ được lợi thế này.",
   },
   {
-    organ: "Thận, hệ tiết niệu",
+    organ: "Thận, hệ tiết niệu, xương khớp",
     element: "thuy" as const,
-    note: "Thủy bị chế — dù Nhâm Thủy thấu can vẫn bị Thổ bao vây — chú ý vùng thắt lưng, tránh thức khuya, uống đủ nước, tầm soát sỏi thận nếu có tiền sử gia đình.",
-  },
-  {
-    organ: "Xương khớp & tai nạn nhỏ lặp lại",
-    element: "tho" as const,
-    note: "Tam Thìn Tự Hình — tổ hợp Tự Hình lặp lại thường gắn với va vấp/chấn thương nhỏ có tính lặp lại, hoặc bệnh có yếu tố tâm lý tự tạo — nên chủ động quản lý stress.",
+    note: "Thủy rất yếu (chỉ 4.3%) — cần chủ động bù đắp: uống đủ nước, tránh thức khuya, hạn chế đồ ăn mặn/nhiều đạm kéo dài, tầm soát định kỳ nếu có dấu hiệu bất thường vùng thắt lưng.",
   },
 ];
 
 export const healthGeneral =
-  "Vận động đều đặn (tiết bớt khí Thổ dư qua đường Kim), ăn uống điều độ, tiếp xúc thiên nhiên/cây xanh có lợi hơn hẳn so với ở trong không gian bí bách lâu ngày.";
+  "Ưu tiên các hoạt động vừa hạ bớt Hỏa vừa bồi bổ Thủy (bơi lội, các môn thể thao dưới nước, thiền định), ăn uống điều độ đúng giờ để nâng đỡ Thổ, hạn chế môi trường ồn ào/áp lực cao kéo dài vì dễ khiến Hỏa vượng thêm bộc phát.";
 
 export const wealth = {
   taiTinh:
-    "Nhâm Thủy (Thiên Tài) thấu can ở Tháng, cộng Quý Thủy (Chính Tài) ẩn tàng cả 3 Thìn — Thủy là Hỷ Thần nên khả năng tạo ra/thu hút tiền bạc khá tốt, đặc biệt qua kênh liên quan Thủy (tài chính lưu động, giao thương, hợp tác quốc tế), và được kích hoạt tốt nhất khi có Mộc đi kèm (Dụng Thần) — tiền đến thuận lợi nhất khi gắn với chuyên môn/năng lực thực chất, không phải may rủi thuần túy.",
+    "Canh Kim (Chính Tài) và Tân Kim (Thiên Tài) đều hiện diện — Tân thấu lộ ngay trụ Năm, Canh tàng trong cả Tỵ lẫn Thân — Tài Tinh vừa là Dụng Thần vừa có gốc khá vững, cho thấy khả năng tạo ra và tích lũy tiền bạc tốt, đặc biệt qua các lĩnh vực liên quan Kim (tài chính, kim loại, công nghệ, kỹ thuật chính xác) hoặc bất cứ ngành nào đòi hỏi độ chuẩn xác, kỷ luật.",
   risk:
-    "Rủi ro lớn nhất — \"phá tài\" từ Tỉ Kiếp cực vượng: dễ gặp hao tài qua bạn bè/đối tác/anh em — cho vay khó đòi, hùn vốn không rõ ràng dễ mất phần, chi tiêu theo cảm tính vì nể nang. Tài chính cá nhân nên tách bạch rõ ràng với tài chính chung khi hợp tác.",
+    "Rủi ro lớn nhất đến từ Tỷ Kiếp (Kỵ Thần, ~22.9%) — dễ hao tài vì nể nang bạn bè/anh chị em, cho vay mượn khó đòi, hùn vốn không rõ ràng. Ngoài ra Thân vượng dễ khiến quyết định chi tiêu mang tính bộc phát, cảm tính nhất thời hơn là tính toán dài hạn.",
   suggestion:
-    "Ưu tiên tích lũy có tính thanh khoản (Thủy) hơn là chôn vốn vào tài sản cố định (Thổ, vốn đã dư); nếu kinh doanh nên chọn mô hình ít phụ thuộc số đông cộng sự, hợp đồng minh bạch; giai đoạn Đại Vận có Mộc/Thủy (như Tân Mão 11–20 tuổi, Đinh Hợi 51–60 tuổi) thường là lúc tài chính có cơ hội bứt phá rõ rệt hơn.",
+    "Nên minh bạch hóa mọi giao dịch tài chính với người thân/bạn bè ngay từ đầu; ưu tiên tích lũy có kỷ luật (tự động trích một phần thu nhập) hơn là để chi tiêu tự do theo cảm xúc; giai đoạn Đại Vận có Kim/Thủy (Canh Tý 58–67t, Tân Sửu 68–77t, Nhâm Dần 78–87t) thường là lúc tài chính vào guồng ổn định và bền vững nhất.",
 };
 
 export const career = [
-  "Nghề nghiệp phù hợp nhất thiên về hành Mộc (giáo dục, y tế, sách vở-xuất bản, thiết kế) kết hợp Thủy (truyền thông, tư vấn, du lịch, giao thương). Kim chỉ nên là kỹ năng bổ trợ, không nên làm trục chính vì khắc ngược Dụng Thần.",
-  "Quan Sát (Ất Mộc) là Dụng Thần nhưng chỉ ẩn tàng — tiềm năng lãnh đạo rất thật nhưng cần chủ động khơi mở qua nỗ lực và vận trình phù hợp, không tự nhiên mà có.",
-  "Tỉ Kiếp cực vượng (Kỵ Thần) khiến dễ gặp cạnh tranh gay gắt từ đồng nghiệp/đối tác — nếu hùn vốn kinh doanh, cần hợp đồng rõ ràng.",
+  "Nghề nghiệp phù hợp nhất thiên về hành Kim (tài chính – ngân hàng, kỹ thuật chính xác, công nghệ, luật) kết hợp Thủy (truyền thông, tư vấn, ngoại giao, giao thương quốc tế) — đây đồng thời là Dụng và Hỷ Thần của lá số.",
+  "Thực Thần – Thương Quan (Thổ) rất vượng — cho thấy năng khiếu thể hiện bản thân, sáng tạo, ăn nói tốt; có thể phát huy mạnh trong các vai trò cần trình bày, thuyết phục, xây dựng thương hiệu cá nhân.",
+  "Tỷ Kiếp vượng (Kỵ Thần) khiến môi trường làm việc dễ có cạnh tranh trực diện — phù hợp hơn với vai trò chủ động dẫn dắt (do Nhật Chủ vượng, đủ sức đứng đầu) thay vì phụ thuộc hoàn toàn vào một tập thể lớn không rõ vai trò.",
 ];
 
 export const thanSatByPillar = [
   {
     pillar: "Năm (Tân Tỵ)",
-    list: ["Học Đường", "Kiếp Sát", "Lộc Thần", "Lưu Hà Sát", "Phúc Tinh", "Quốc Ấn", "Thiên La", "Tú Quý Nhân"],
+    list: ["Học Đường", "Kình Dương", "Phúc Tinh", "Quốc Ấn", "Thiên Y", "Trạch Mã"],
   },
   {
-    pillar: "Tháng (Nhâm Thìn)",
-    list: ["Đức Quý Nhân", "Hoa Cái", "Hồng Diễm", "Khôi Canh", "Nguyệt Đức", "Quả Tú", "Thái Cực", "Thiên Đức", "Thiên La"],
+    pillar: "Tháng (Giáp Ngọ)",
+    list: ["Hàm Trì", "Lộc Thần", "Thiên Ất", "Thiên Xá"],
   },
   {
-    pillar: "Ngày (Mậu Thìn)",
-    list: ["Đức Quý Nhân", "Hồng Diễm", "Quả Tú", "Thái Cực", "Thiên La"],
+    pillar: "Ngày (Đinh Mùi)",
+    list: ["Âm Dương Lệch", "Bát Chuyên", "Đức Quý Nhân", "Hồng Diễm"],
   },
   {
-    pillar: "Giờ (Bính Thìn)",
-    list: ["Hoa Cái", "Hồng Diễm", "Quả Tú", "Thái Cực", "Thiên La", "Tú Quý Nhân"],
+    pillar: "Giờ (Mậu Thân)",
+    list: ["Cấu Giảo", "Cô Thần", "Giáp Lộc", "Hồng Loan", "Kiếp Sát", "Kim Dư", "Lưu Hà Sát", "Tú Quý Nhân"],
   },
 ];
 
@@ -246,139 +242,124 @@ export type ThanSatNature = "tot" | "xau" | "trung-tinh";
 
 export const thanSatMeanings: { name: string; freq: string; desc: string; nature: ThanSatNature }[] = [
   { name: "Học Đường", freq: "Năm", desc: "Sao chủ về học hành, thi cử, thông minh, hiếu học. Người có Học Đường thường có duyên với trường lớp, sách vở, dễ đạt thành tích trong học tập.", nature: "tot" },
-  { name: "Kiếp Sát", freq: "Năm", desc: "Sao hung — chủ về mất mát, hao tài, tai họa bất ngờ. Cần cẩn trọng trong các vấn đề liên quan đến tiền bạc, hợp đồng, đi lại xa.", nature: "xau" },
-  { name: "Lộc Thần", freq: "Năm", desc: "Sao cát — ứng với cách Kiến Lộc, chủ về tài lộc ổn định, cuộc sống no đủ, có lộc từ chính bản thân mình tạo ra.", nature: "tot" },
-  { name: "Lưu Hà Sát", freq: "Năm", desc: "Sao hung — cần cẩn trọng tai nạn liên quan đến nước, dao kéo, phẫu thuật. Đi lại đường thủy hoặc vùng sông nước nên thận trọng.", nature: "xau" },
+  { name: "Kình Dương", freq: "Năm", desc: "Sao hung — cá tính nóng vội, quyết đoán tới mức cực đoan, dễ va vấp tai nạn liên quan dao kéo/vật sắc nhọn hoặc phẫu thuật. Cần rèn sự điềm tĩnh.", nature: "xau" },
   { name: "Phúc Tinh", freq: "Năm", desc: "Sao cát — chủ về phúc đức, may mắn, có khả năng hóa giải hung sát. Người có Phúc Tinh thường được tổ tiên phù hộ, gặp dữ hóa lành.", nature: "tot" },
   { name: "Quốc Ấn", freq: "Năm", desc: "Sao cát — chủ về quyền lực, địa vị 'chính danh'. Có duyên với công việc nhà nước, cơ quan chính phủ, hoặc các tổ chức lớn.", nature: "tot" },
-  { name: "Đức Quý Nhân", freq: "2/4 trụ", desc: "Sao cát — chủ về việc được người khác giúp đỡ, gặp dữ hóa lành. Quý nhân phù trợ đúng lúc, thường xuất hiện khi gặp khó khăn.", nature: "tot" },
-  { name: "Hoa Cái", freq: "2/4 trụ", desc: "Sao cát — chủ về duyên nghệ thuật, tâm linh, đời sống nội tâm sâu sắc. Người có Hoa Cái thường có năng khiếu đặc biệt về nghệ thuật hoặc nghiên cứu.", nature: "tot" },
-  { name: "Hồng Diễm", freq: "3/4 trụ", desc: "Sao đào hoa phụ — chủ về sức hút ngoại hình, dễ có duyên tình cảm. Tuy nhiên cần tiết chế để tránh thị phi, đặc biệt khi kết hợp cùng Quả Tú.", nature: "trung-tinh" },
-  { name: "Khôi Canh", freq: "Tháng", desc: "Sao chủ về tính cách cương trực, quyết đoán, đôi khi cứng nhắc. Có tài năng lãnh đạo nhưng cần mềm dẻo hơn trong giao tiếp để tránh xung đột.", nature: "trung-tinh" },
-  { name: "Nguyệt Đức", freq: "Tháng", desc: "Sao cát bậc nhất — cùng với Thiên Đức tạo thành cặp sao lành mạnh mẽ, giúp giảm nhẹ đáng kể ảnh hưởng tiêu cực từ các hung sát khác.", nature: "tot" },
-  { name: "Thiên Đức", freq: "Tháng", desc: "Sao cát bậc nhất — chủ về phúc đức trời ban, giúp hóa giải tai họa, bảo vệ bản mệnh khỏi những điều xấu.", nature: "tot" },
-  { name: "Quả Tú", freq: "3/4 trụ", desc: "Sao chủ về sự cô đơn — nhắc nhở cần chủ động vun đắp các mối quan hệ, tránh khép kín trong tình cảm và quan hệ con cái.", nature: "xau" },
-  { name: "Tú Quý Nhân", freq: "2/4 trụ", desc: "Sao cát — một loại quý nhân, chủ về việc gặp dữ hóa lành, được người khác giúp đỡ vào những lúc khó khăn.", nature: "tot" },
-  { name: "Thái Cực", freq: "3/4 trụ", desc: "Sao quý — liên quan đến học thuật, triết lý, tôn giáo, Dịch lý. Có duyên với nghiên cứu chuyên sâu và minh triết.", nature: "tot" },
-  { name: "Thiên La", freq: "4/4 trụ", desc: "Sao hung bậc nhất — chủ về bó buộc, trắc trở, hay gặp cản trở, thị phi, kiện tụng. Cộng hưởng trực tiếp với Tam Thìn Tự Hình, cũng gắn với ý nghĩa tu tâm, khắc kỷ nếu biết chuyển hóa.", nature: "xau" },
+  { name: "Thiên Y", freq: "Năm", desc: "Sao cát — có duyên với nghề y dược, chữa bệnh, chăm sóc sức khỏe người khác; cũng gợi ý bản thân cần chủ động chăm sóc sức khỏe.", nature: "tot" },
+  { name: "Trạch Mã", freq: "Năm", desc: "Sao chủ về di chuyển — có duyên đi xa, thay đổi chỗ ở/công việc, thuận lợi với các ngành liên quan xuất ngoại, giao thương, du lịch.", nature: "trung-tinh" },
+  { name: "Hàm Trì", freq: "Tháng", desc: "Sao đào hoa — sức hút ngoại hình tốt, dễ được chú ý trong giao tiếp; cần tiết chế để tránh thị phi tình cảm.", nature: "trung-tinh" },
+  { name: "Lộc Thần", freq: "Tháng", desc: "Sao cát — ứng với cách Kiến Lộc, chủ về tài lộc ổn định, cuộc sống no đủ, có lộc từ chính bản thân mình tạo ra.", nature: "tot" },
+  { name: "Thiên Ất", freq: "Tháng", desc: "Sao quý nhân bậc nhất — luôn có người giúp đỡ đúng lúc khó khăn, gặp dữ hóa lành.", nature: "tot" },
+  { name: "Thiên Xá", freq: "Tháng", desc: "Sao cát — mang ý nghĩa ân xá, giúp hóa giải bớt tai họa, giảm nhẹ hung sát khác trong lá số.", nature: "tot" },
+  { name: "Âm Dương Lệch", freq: "Ngày", desc: "Sao chủ về hôn nhân có phần trắc trở, dễ lệch pha quan điểm/tuổi tác với bạn đời — cần thấu hiểu, nhường nhịn nhiều hơn để giữ hòa khí.", nature: "xau" },
+  { name: "Bát Chuyên", freq: "Ngày", desc: "Sao chủ về sự chuyên nhất, dễ đặt hết tâm trí vào một hướng (công việc, đam mê) — ưu điểm là chuyên sâu nhưng dễ cô đơn trong đời sống tình cảm.", nature: "trung-tinh" },
+  { name: "Đức Quý Nhân", freq: "Ngày", desc: "Sao cát — chủ về việc được người khác giúp đỡ, gặp dữ hóa lành. Quý nhân phù trợ đúng lúc, thường xuất hiện khi gặp khó khăn.", nature: "tot" },
+  { name: "Hồng Diễm", freq: "Ngày", desc: "Sao đào hoa phụ — chủ về sức hút ngoại hình, dễ có duyên tình cảm. Tuy nhiên cần tiết chế để tránh thị phi.", nature: "trung-tinh" },
+  { name: "Cấu Giảo", freq: "Giờ", desc: "Sao hung — dễ gặp thị phi, khẩu thiệt, hiểu lầm hoặc tranh chấp/kiện tụng nếu không cẩn trọng trong lời ăn tiếng nói.", nature: "xau" },
+  { name: "Cô Thần", freq: "Giờ", desc: "Sao chủ về sự cô đơn — nhắc nhở cần chủ động vun đắp các mối quan hệ, tránh khép kín trong tình cảm.", nature: "xau" },
+  { name: "Giáp Lộc", freq: "Giờ", desc: "Sao cát — tài lộc kép, dồi dào, thường gắn với khả năng tạo ra thu nhập tốt từ chính năng lực bản thân.", nature: "tot" },
+  { name: "Hồng Loan", freq: "Giờ", desc: "Sao đào hoa chính — chủ về duyên tình duyên vợ chồng tốt đẹp, dễ gặp được người ưng ý, hôn nhân có phần thuận lợi hơn.", nature: "tot" },
+  { name: "Kiếp Sát", freq: "Giờ", desc: "Sao hung — chủ về mất mát, hao tài, tai họa bất ngờ. Cần cẩn trọng trong các vấn đề liên quan đến tiền bạc, hợp đồng, đi lại xa.", nature: "xau" },
+  { name: "Kim Dư", freq: "Giờ", desc: "Sao cát — chủ về sự dư dả tài chính, phúc lộc, cuộc sống về sau có phần sung túc hơn giai đoạn đầu đời.", nature: "tot" },
+  { name: "Lưu Hà Sát", freq: "Giờ", desc: "Sao hung — cần cẩn trọng tai nạn liên quan đến nước, dao kéo, phẫu thuật. Đi lại đường thủy hoặc vùng sông nước nên thận trọng.", nature: "xau" },
+  { name: "Tú Quý Nhân", freq: "Giờ", desc: "Sao cát — một loại quý nhân, chủ về việc gặp dữ hóa lành, được người khác giúp đỡ vào những lúc khó khăn.", nature: "tot" },
 ];
 
 export const thanSatSummary =
-  "Nhóm hung (Thiên La, Quả Tú, Kiếp Sát, Lưu Hà Sát) xoay quanh bó buộc/hao tổn/cô đơn cần chủ động hóa giải; nhóm cát khá dồi dào, đóng vai trò nâng đỡ. Hoa Cái–Thái Cực là \"lối thoát\" tự nhiên: càng đi sâu tri thức/nội tâm/tâm linh càng dễ tìm cân bằng.";
+  "Nhóm hung (Kình Dương, Cấu Giảo, Cô Thần, Kiếp Sát, Lưu Hà Sát, Âm Dương Lệch) xoay quanh cá tính nóng vội/thị phi/hao tổn/cô đơn — cần chủ động tiết chế và hóa giải. Nhóm cát khá dồi dào (Lộc Thần, Thiên Ất, Đức Quý Nhân, Hồng Loan, Giáp Lộc, Kim Dư...) đóng vai trò nâng đỡ đáng kể, đặc biệt Hồng Loan ở trụ Giờ là điểm sáng cho đường tình duyên.";
 
+/* ──────── Đại Vận (8 chặng, mỗi chặng 10 năm) ────────
+ * Số tính đại vận = 23.7059259259258; nhập Đại Vận lúc 7 tuổi 11 tháng.
+ * Tiết Mang Chủng bắt đầu 05-06-2001 21:53; Khí Hạ Chí 21-06-2001 14:37 – 07-07-2001 08:06. */
 export const daiVan = [
-  { ganChi: "Tân Mão", start: "06/2011", startYear: 2011, age: 11, tenGod: "Thương Quan", favorable: true },
-  { ganChi: "Canh Dần", start: "06/2021", startYear: 2021, age: 21, tenGod: "Thực Thần", favorable: true },
-  { ganChi: "Kỷ Sửu", start: "06/2031", startYear: 2031, age: 31, tenGod: "Kiếp Tài", favorable: false },
-  { ganChi: "Mậu Tý", start: "06/2041", startYear: 2041, age: 41, tenGod: "Tỉ Kiên", favorable: false },
-  { ganChi: "Đinh Hợi", start: "06/2051", startYear: 2051, age: 51, tenGod: "Chính Ấn", favorable: true },
-  { ganChi: "Bính Tuất", start: "05/2061", startYear: 2061, age: 61, tenGod: "Thiên Ấn", favorable: false },
-  { ganChi: "Ất Dậu", start: "05/2071", startYear: 2071, age: 71, tenGod: "Chính Quan", favorable: true },
-  { ganChi: "Giáp Thân", start: "05/2081", startYear: 2081, age: 81, tenGod: "Thất Sát", favorable: true },
+  { ganChi: "Ất Mùi", start: "05/2009", startYear: 2009, age: 8, tenGod: "Thiên Ấn", favorable: false },
+  { ganChi: "Bính Thân", start: "05/2019", startYear: 2019, age: 18, tenGod: "Kiếp Tài", favorable: false },
+  { ganChi: "Đinh Dậu", start: "05/2029", startYear: 2029, age: 28, tenGod: "Tỷ Kiên", favorable: false },
+  { ganChi: "Mậu Tuất", start: "04/2039", startYear: 2039, age: 38, tenGod: "Thương Quan", favorable: true },
+  { ganChi: "Kỷ Hợi", start: "04/2049", startYear: 2049, age: 48, tenGod: "Thực Thần", favorable: true },
+  { ganChi: "Canh Tý", start: "04/2059", startYear: 2059, age: 58, tenGod: "Chính Tài", favorable: true },
+  { ganChi: "Tân Sửu", start: "04/2069", startYear: 2069, age: 68, tenGod: "Thiên Tài", favorable: true },
+  { ganChi: "Nhâm Dần", start: "04/2079", startYear: 2079, age: 78, tenGod: "Chính Quan", favorable: true },
 ];
 
 export const daiVanNote =
-  "Vận Tân Mão (11–20t) và Đinh Hợi (51–60t) có Mộc/Thủy — giai đoạn tiềm năng thuận lợi nhất để bứt phá. Vận Canh Dần hiện tại (21–30t) có Dần mang Mộc (Dụng Thần) nhưng đi kèm Canh (Kim khắc Dần) nên cơ hội có thật nhưng đòi hỏi chủ động, kiên trì hơn là chờ thời.";
+  "Ba chặng đầu đời (Ất Mùi, Bính Thân, Đinh Dậu — 8 đến 37 tuổi) đều mang Hỏa/Mộc, đúng nhóm Kỵ Thần — giai đoạn tự thân vất vả nhiều hơn, cá tính mạnh dễ va vấp, cần chủ động tiết chế và định hướng đúng thay vì trông chờ thuận lợi tự đến. Từ 38 tuổi trở đi (Mậu Tuất, Kỷ Hợi, Canh Tý, Tân Sửu, Nhâm Dần) vận trình dịch chuyển đều đặn sang Thổ rồi Kim rồi Thủy — đúng thứ tự \"sinh xuất\" mà lá số cần, nên trung niên về sau là giai đoạn vận trình rõ ràng thuận lợi và ổn định nhất.";
+export const daiVanMeta = "Nghịch hành từ Giáp Ngọ, nhập vận lúc 7 tuổi 11 tháng.";
 
-export const daiVanMeta = "Nghịch hành từ Nhâm Thìn, nhập vận lúc 10 tuổi 1 tháng.";
+/* ──────── Lưu Niên theo từng Đại Vận (dữ liệu Can Chi + Thập Thần thật, sinh nhận xét ngắn theo nhóm Dụng/Hỷ/Kỵ) ──────── */
+type TG = "THỰC" | "C.TÀI" | "T.TÀI" | "QUAN" | "SÁT" | "ẤN" | "KIÊU" | "KIẾP" | "TỶ" | "THƯƠNG";
+const TG_FULL: Record<TG, string> = {
+  THỰC: "Thực Thần", "C.TÀI": "Chính Tài", "T.TÀI": "Thiên Tài", QUAN: "Chính Quan", SÁT: "Thất Sát",
+  ẤN: "Chính Ấn", KIÊU: "Thiên Ấn", KIẾP: "Kiếp Tài", TỶ: "Tỷ Kiên", THƯƠNG: "Thương Quan",
+};
+// Dụng = Kim (Tài), Hỷ = Thủy (Quan/Sát) & Thổ (Thực/Thương), Kỵ = Hỏa (Tỷ/Kiếp) & Mộc (Ấn/Kiêu)
+const TG_TIER: Record<TG, "dung" | "hy" | "ky"> = {
+  "C.TÀI": "dung", "T.TÀI": "dung", QUAN: "hy", SÁT: "hy", THỰC: "hy", THƯƠNG: "hy",
+  TỶ: "ky", KIẾP: "ky", ẤN: "ky", KIÊU: "ky",
+};
+const NOTE: Record<"dung" | "hy" | "ky", { tinhCam: string; tienBac: string; congViec: string; giaDinh: string; sucKhoe: string }> = {
+  dung: { tinhCam: "Năm thuận, dễ gặp người phù hợp hoặc tình cảm ổn định.", tienBac: "Tài chính khởi sắc, có cơ hội tích lũy tốt.", congViec: "Công việc thuận lợi, dễ có bước tiến rõ rệt.", giaDinh: "Gia đình hòa thuận, ít va chạm.", sucKhoe: "Sức khỏe ổn định, năng lượng tốt." },
+  hy: { tinhCam: "Tình cảm nhẹ nhàng, có quý nhân hoặc cơ hội mới xuất hiện.", tienBac: "Tài chính ổn, có thêm nguồn thu phụ.", congViec: "Công việc tiến triển đều, phát huy được năng khiếu cá nhân.", giaDinh: "Gia đình bình an, được hỗ trợ khi cần.", sucKhoe: "Sức khỏe khá tốt, nên duy trì vận động." },
+  ky: { tinhCam: "Dễ nóng vội, cần kiềm chế để tránh mâu thuẫn không đáng có.", tienBac: "Nên thận trọng chi tiêu, tránh cho vay mượn cảm tính.", congViec: "Áp lực/cạnh tranh tăng, cần giữ kiên nhẫn.", giaDinh: "Có thể phát sinh căng thẳng nhỏ, cần chủ động thấu hiểu.", sucKhoe: "Dễ mệt mỏi, stress — chú ý nghỉ ngơi và hạ hỏa." },
+};
+function luuNienYears(entries: [number, string, TG][]) {
+  return entries.map(([nam, canChi, tg]) => {
+    const n = NOTE[TG_TIER[tg]];
+    const label = `${canChi} — ${TG_FULL[tg]}`;
+    return { nam, canChi: label, tinhCam: n.tinhCam, tienBac: n.tienBac, congViec: n.congViec, giaDinh: n.giaDinh, sucKhoe: n.sucKhoe };
+  });
+}
+
 export const luuNienByDaiVan: Record<string, { nam: number; canChi: string; tinhCam: string; tienBac: string; congViec: string; giaDinh: string; sucKhoe: string }[]> = {
-  "Tân Mão": [
-    { nam: 2011, canChi: "Tân Mão", tinhCam: "Năm Thương Quan gặp Mão Mộc (Dụng Thần) — tình cảm nhẹ nhàng, dễ gặp bạn bè mới.", tienBac: "Còn trẻ, tài chính phụ thuộc gia đình.", congViec: "Tuổi đi học, chưa có công việc chính thức.", giaDinh: "Gia đình ổn định, được cha mẹ hỗ trợ học tập.", sucKhoe: "Sức khỏe tốt, chú ý các bệnh về hô hấp." },
-    { nam: 2012, canChi: "Nhâm Thìn", tinhCam: "Nhâm Thủy (Hỷ Thần) — dễ kết bạn, tình cảm thuận lợi.", tienBac: "Ổn định, được gia đình chu cấp.", congViec: "Học tập tiến bộ.", giaDinh: "Gia đình hòa thuận.", sucKhoe: "Tốt, chú ý ăn uống điều độ." },
-    { nam: 2013, canChi: "Quý Tỵ", tinhCam: "Quý Thủy (Chính Tài) — dễ có cảm tình với người khác giới.", tienBac: "Ổn định.", congViec: "Có cơ hội thể hiện năng khiếu.", giaDinh: "Bình an.", sucKhoe: "Tốt." },
-    { nam: 2014, canChi: "Giáp Ngọ", tinhCam: "Giáp Mộc (Dụng Thần) — tình cảm phát triển tốt.", tienBac: "Ổn định.", congViec: "Đột phá nhỏ trong học tập.", giaDinh: "Vui vẻ.", sucKhoe: "Tốt, năng lượng dồi dào." },
-    { nam: 2015, canChi: "Ất Mùi", tinhCam: "Ất Mộc (Chính Quan) — gặp quý nhân giúp đỡ.", tienBac: "Ổn định.", congViec: "Học hành tiến bộ.", giaDinh: "Bình an.", sucKhoe: "Tốt." },
-    { nam: 2016, canChi: "Bính Thân", tinhCam: "Bính Hỏa (Kỵ Thần) — dễ mâu thuẫn nhỏ trong quan hệ.", tienBac: "Cần tiết kiệm.", congViec: "Áp lực thi cử.", giaDinh: "Có chút căng thẳng.", sucKhoe: "Dễ mệt mỏi, stress." },
-    { nam: 2017, canChi: "Đinh Dậu", tinhCam: "Đinh Hỏa (Kỵ Thần) — cần kiểm soát cảm xúc.", tienBac: "Ổn định.", congViec: "Thi cử quan trọng.", giaDinh: "Được động viên.", sucKhoe: "Chú ý giấc ngủ." },
-    { nam: 2018, canChi: "Mậu Tuất", tinhCam: "Mậu Thổ (Kỵ Thần) — dễ bảo thủ, khó gần.", tienBac: "Ổn định.", congViec: "Bước ngoặt học tập.", giaDinh: "Bình an.", sucKhoe: "Chú ý tiêu hóa." },
-    { nam: 2019, canChi: "Kỷ Hợi", tinhCam: "Kỷ Thổ + Hợi Thủy — tình cảm dần khởi sắc.", tienBac: "Ổn định.", congViec: "Chuẩn bị cho tương lai.", giaDinh: "Hòa thuận.", sucKhoe: "Tốt lên." },
-    { nam: 2020, canChi: "Canh Tý", tinhCam: "Canh Kim (Hỷ phụ) + Tý Thủy — tình cảm tốt, dễ gặp người thương.", tienBac: "Ổn định.", congViec: "Cơ hội mới.", giaDinh: "Vui vẻ.", sucKhoe: "Tốt." },
-  ],
-  "Canh Dần": [
-    { nam: 2021, canChi: "Canh Dần", tinhCam: "Đầu Đại Vận, Dần Mộc (Dụng Thần) — tình cảm khởi sắc.", tienBac: "Bắt đầu tự lập tài chính.", congViec: "Khởi đầu sự nghiệp.", giaDinh: "Ủng hộ từ cha.", sucKhoe: "Tốt, nhiều năng lượng." },
-    { nam: 2022, canChi: "Nhâm Dần", tinhCam: "Nhâm Thủy + Dần Mộc (đều là Hỷ/Dụng) — tình cảm thuận lợi.", tienBac: "Thu nhập ổn định.", congViec: "Phát triển kỹ năng.", giaDinh: "Hòa thuận.", sucKhoe: "Tốt." },
-    { nam: 2023, canChi: "Quý Mão", tinhCam: "Quý Thủy + Mão Mộc — năm đẹp cho tình cảm.", tienBac: "Tài chính khá lên.", congViec: "Cơ hội thăng tiến.", giaDinh: "Vui vẻ.", sucKhoe: "Tốt." },
-    { nam: 2024, canChi: "Giáp Thìn", tinhCam: "Giáp Mộc (Dụng Thần) — tình cảm sâu sắc.", tienBac: "Thu nhập tăng.", congViec: "Bước tiến quan trọng.", giaDinh: "Có tin vui.", sucKhoe: "Ổn định." },
-    { nam: 2025, canChi: "Ất Tỵ", tinhCam: "Ất Mộc (Dụng Thần) — tình cảm thăng hoa.", tienBac: "Tài chính tốt.", congViec: "Thành công bước đầu.", giaDinh: "Hạnh phúc.", sucKhoe: "Tốt." },
-    { nam: 2026, canChi: "Bính Ngọ", tinhCam: "Bính Hỏa (Kỵ Thần) — dễ cãi vã, hiểu lầm.", tienBac: "Cẩn trọng chi tiêu.", congViec: "Áp lực công việc.", giaDinh: "Căng thẳng nhẹ.", sucKhoe: "Chú ý tim mạch, huyết áp." },
-    { nam: 2027, canChi: "Đinh Mùi", tinhCam: "Đinh Hỏa (Kỵ Thần) — cần kiên nhẫn trong tình cảm.", tienBac: "Ổn định.", congViec: "Duy trì, không nên thay đổi lớn.", giaDinh: "Cần quan tâm người thân.", sucKhoe: "Chú ý nghỉ ngơi." },
-    { nam: 2028, canChi: "Mậu Thân", tinhCam: "Mậu Thổ (Kỵ) + Thân Kim (Hỷ phụ) — tình cảm trung bình.", tienBac: "Có cơ hội đầu tư.", congViec: "Đổi mới cách làm việc.", giaDinh: "Ổn định.", sucKhoe: "Tốt." },
-    { nam: 2029, canChi: "Kỷ Dậu", tinhCam: "Kỷ Thổ (Kỵ) + Dậu Kim (Hỷ phụ) — tình cảm cần vun đắp.", tienBac: "Thu nhập ổn.", congViec: "Có quý nhân giúp đỡ.", giaDinh: "Bình an.", sucKhoe: "Ổn." },
-    { nam: 2030, canChi: "Canh Tuất", tinhCam: "Canh Kim + Tuất Thổ — cuối đại vận, tình cảm ổn định.", tienBac: "Tài chính vững.", congViec: "Tổng kết thành quả.", giaDinh: "Đoàn tụ.", sucKhoe: "Tốt." },
-  ],
-  "Kỷ Sửu": [
-    { nam: 2031, canChi: "Kỷ Sửu", tinhCam: "Bắt đầu vận Kỵ Thần — tình cảm có thể gặp thử thách.", tienBac: "Cạnh tranh tài chính.", congViec: "Áp lực từ đồng nghiệp.", giaDinh: "Cần kiên nhẫn.", sucKhoe: "Chú ý tiêu hóa." },
-    { nam: 2032, canChi: "Canh Dần", tinhCam: "Canh Kim + Dần Mộc — tình cảm cải thiện.", tienBac: "Cơ hội tài chính.", congViec: "Phát triển tốt.", giaDinh: "Ổn định.", sucKhoe: "Tốt." },
-    { nam: 2033, canChi: "Tân Mão", tinhCam: "Tân Kim + Mão Mộc — tình cảm thuận lợi.", tienBac: "Thu nhập khá.", congViec: "Cơ hội mới.", giaDinh: "Vui vẻ.", sucKhoe: "Tốt." },
-    { nam: 2034, canChi: "Nhâm Thìn", tinhCam: "Nhâm Thủy — tình cảm tốt.", tienBac: "Tài chính ổn.", congViec: "Ổn định.", giaDinh: "Bình an.", sucKhoe: "Tốt." },
-    { nam: 2035, canChi: "Quý Tỵ", tinhCam: "Quý Thủy — tình cảm sâu sắc.", tienBac: "Tốt.", congViec: "Thăng tiến.", giaDinh: "Hạnh phúc.", sucKhoe: "Tốt." },
-    { nam: 2036, canChi: "Giáp Ngọ", tinhCam: "Giáp Mộc — tình cảm đẹp.", tienBac: "Khá.", congViec: "Phát triển.", giaDinh: "Vui.", sucKhoe: "Ổn." },
-    { nam: 2037, canChi: "Ất Mùi", tinhCam: "Ất Mộc — tình cảm thuận.", tienBac: "Ổn.", congViec: "Tiến triển.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2038, canChi: "Bính Thân", tinhCam: "Bính Hỏa (Kỵ) — cẩn trọng xung đột.", tienBac: "Tiết kiệm.", congViec: "Áp lực.", giaDinh: "Căng thẳng.", sucKhoe: "Stress." },
-    { nam: 2039, canChi: "Đinh Dậu", tinhCam: "Đinh Hỏa (Kỵ) — cần kiểm soát.", tienBac: "Ổn.", congViec: "Duy trì.", giaDinh: "Quan tâm.", sucKhoe: "Nghỉ ngơi." },
-    { nam: 2040, canChi: "Mậu Tuất", tinhCam: "Mậu Thổ (Kỵ) — thử thách tình cảm.", tienBac: "Cạnh tranh.", congViec: "Khó khăn.", giaDinh: "Cần thấu hiểu.", sucKhoe: "Chú ý dạ dày." },
-  ],
-  "Mậu Tý": [
-    { nam: 2041, canChi: "Mậu Tý", tinhCam: "Tý Thủy (Hỷ) hòa giải phần nào Thổ Kỵ.", tienBac: "Có cơ hội.", congViec: "Trung bình.", giaDinh: "Ổn.", sucKhoe: "Ổn." },
-    { nam: 2042, canChi: "Kỷ Sửu", tinhCam: "Thổ Kỵ mạnh — cẩn trọng.", tienBac: "Khó khăn.", congViec: "Thử thách.", giaDinh: "Cần kiên nhẫn.", sucKhoe: "Tiêu hóa." },
-    { nam: 2043, canChi: "Canh Dần", tinhCam: "Canh Kim + Dần Mộc — cải thiện.", tienBac: "Khá.", congViec: "Tốt lên.", giaDinh: "Vui.", sucKhoe: "Tốt." },
-    { nam: 2044, canChi: "Tân Mão", tinhCam: "Tân Kim + Mão Mộc — tốt.", tienBac: "Tốt.", congViec: "Phát triển.", giaDinh: "Hạnh phúc.", sucKhoe: "Tốt." },
-    { nam: 2045, canChi: "Nhâm Thìn", tinhCam: "Nhâm Thủy — tốt.", tienBac: "Ổn.", congViec: "Ổn.", giaDinh: "Ổn.", sucKhoe: "Ổn." },
-    { nam: 2046, canChi: "Quý Tỵ", tinhCam: "Quý Thủy — tốt.", tienBac: "Khá.", congViec: "Tiến triển.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2047, canChi: "Giáp Ngọ", tinhCam: "Giáp Mộc (Dụng) — rất tốt.", tienBac: "Tốt.", congViec: "Thành công.", giaDinh: "Vui.", sucKhoe: "Tốt." },
-    { nam: 2048, canChi: "Ất Mùi", tinhCam: "Ất Mộc (Dụng) — tốt.", tienBac: "Tốt.", congViec: "Phát triển.", giaDinh: "Hạnh phúc.", sucKhoe: "Tốt." },
-    { nam: 2049, canChi: "Bính Thân", tinhCam: "Bính Hỏa (Kỵ) — cẩn trọng.", tienBac: "Trung bình.", congViec: "Áp lực.", giaDinh: "Quan tâm.", sucKhoe: "Chú ý." },
-    { nam: 2050, canChi: "Đinh Dậu", tinhCam: "Đinh Hỏa (Kỵ) — kiểm soát.", tienBac: "Ổn.", congViec: "Duy trì.", giaDinh: "Bình an.", sucKhoe: "Ổn." },
-  ],
-  "Đinh Hợi": [
-    { nam: 2051, canChi: "Đinh Hợi", tinhCam: "Hợi Thủy (Hỷ) — tình cảm ấm áp.", tienBac: "Tốt.", congViec: "Thuận lợi.", giaDinh: "Vui.", sucKhoe: "Tốt." },
-    { nam: 2052, canChi: "Mậu Tý", tinhCam: "Mậu Thổ + Tý Thủy — trung bình.", tienBac: "Ổn.", congViec: "Ổn.", giaDinh: "Ổn.", sucKhoe: "Ổn." },
-    { nam: 2053, canChi: "Kỷ Sửu", tinhCam: "Thổ Kỵ — thận trọng.", tienBac: "Khó.", congViec: "Thử thách.", giaDinh: "Kiên nhẫn.", sucKhoe: "Tiêu hóa." },
-    { nam: 2054, canChi: "Canh Dần", tinhCam: "Canh Kim + Dần Mộc — tốt.", tienBac: "Tốt.", congViec: "Phát triển.", giaDinh: "Vui.", sucKhoe: "Tốt." },
-    { nam: 2055, canChi: "Tân Mão", tinhCam: "Tân Kim + Mão Mộc — tốt.", tienBac: "Tốt.", congViec: "Thuận.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2056, canChi: "Nhâm Thìn", tinhCam: "Nhâm Thủy — tốt.", tienBac: "Ổn.", congViec: "Ổn.", giaDinh: "Ổn.", sucKhoe: "Ổn." },
-    { nam: 2057, canChi: "Quý Tỵ", tinhCam: "Quý Thủy — tốt.", tienBac: "Khá.", congViec: "Tiến.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2058, canChi: "Giáp Ngọ", tinhCam: "Giáp Mộc — rất tốt.", tienBac: "Tốt.", congViec: "Thành công.", giaDinh: "Hạnh phúc.", sucKhoe: "Tốt." },
-    { nam: 2059, canChi: "Ất Mùi", tinhCam: "Ất Mộc — tốt.", tienBac: "Tốt.", congViec: "Phát triển.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2060, canChi: "Bính Thân", tinhCam: "Bính Hỏa (Kỵ) — cẩn trọng.", tienBac: "Trung bình.", congViec: "Áp lực.", giaDinh: "Quan tâm.", sucKhoe: "Chú ý." },
-  ],
-  "Bính Tuất": [
-    { nam: 2061, canChi: "Bính Tuất", tinhCam: "Toàn Kỵ Thần — thử thách lớn.", tienBac: "Khó khăn.", congViec: "Áp lực.", giaDinh: "Căng thẳng.", sucKhoe: "Đề phòng bệnh." },
-    { nam: 2062, canChi: "Đinh Hợi", tinhCam: "Hợi Thủy cứu giải — đỡ hơn.", tienBac: "Khá hơn.", congViec: "Có lối thoát.", giaDinh: "Nhẹ nhõm.", sucKhoe: "Ổn." },
-    { nam: 2063, canChi: "Mậu Tý", tinhCam: "Tý Thủy hòa hoãn.", tienBac: "Ổn.", congViec: "Trung bình.", giaDinh: "Ổn.", sucKhoe: "Ổn." },
-    { nam: 2064, canChi: "Kỷ Sửu", tinhCam: "Kỵ Thần mạnh — cẩn trọng.", tienBac: "Khó.", congViec: "Khó khăn.", giaDinh: "Kiên nhẫn.", sucKhoe: "Sức khỏe yếu." },
-    { nam: 2065, canChi: "Canh Dần", tinhCam: "Dần Mộc cứu — tốt lên.", tienBac: "Tốt.", congViec: "Cơ hội.", giaDinh: "Vui.", sucKhoe: "Tốt." },
-    { nam: 2066, canChi: "Tân Mão", tinhCam: "Mão Mộc — tốt.", tienBac: "Tốt.", congViec: "Thuận.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2067, canChi: "Nhâm Thìn", tinhCam: "Nhâm Thủy — tốt.", tienBac: "Ổn.", congViec: "Ổn.", giaDinh: "Ổn.", sucKhoe: "Ổn." },
-    { nam: 2068, canChi: "Quý Tỵ", tinhCam: "Quý Thủy — tốt.", tienBac: "Khá.", congViec: "Tiến.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2069, canChi: "Giáp Ngọ", tinhCam: "Giáp Mộc — tốt.", tienBac: "Tốt.", congViec: "Tốt.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2070, canChi: "Ất Mùi", tinhCam: "Ất Mộc — tốt.", tienBac: "Tốt.", congViec: "Tốt.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-  ],
-  "Ất Dậu": [
-    { nam: 2071, canChi: "Ất Dậu", tinhCam: "Ất Mộc (Dụng) — tình cảm tốt đẹp.", tienBac: "Tốt.", congViec: "Thuận lợi.", giaDinh: "Vui.", sucKhoe: "Tốt." },
-    { nam: 2072, canChi: "Bính Tuất", tinhCam: "Kỵ Thần — cẩn trọng.", tienBac: "Trung bình.", congViec: "Áp lực.", giaDinh: "Quan tâm.", sucKhoe: "Chú ý." },
-    { nam: 2073, canChi: "Đinh Hợi", tinhCam: "Hợi Thủy — tốt.", tienBac: "Tốt.", congViec: "Tốt.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2074, canChi: "Mậu Tý", tinhCam: "Trung bình.", tienBac: "Ổn.", congViec: "Ổn.", giaDinh: "Ổn.", sucKhoe: "Ổn." },
-    { nam: 2075, canChi: "Kỷ Sửu", tinhCam: "Kỵ Thần — thận trọng.", tienBac: "Khó.", congViec: "Khó.", giaDinh: "Kiên nhẫn.", sucKhoe: "Yếu." },
-    { nam: 2076, canChi: "Canh Dần", tinhCam: "Tốt.", tienBac: "Tốt.", congViec: "Tốt.", giaDinh: "Vui.", sucKhoe: "Tốt." },
-    { nam: 2077, canChi: "Tân Mão", tinhCam: "Tốt.", tienBac: "Tốt.", congViec: "Tốt.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2078, canChi: "Nhâm Thìn", tinhCam: "Tốt.", tienBac: "Ổn.", congViec: "Ổn.", giaDinh: "Ổn.", sucKhoe: "Ổn." },
-    { nam: 2079, canChi: "Quý Tỵ", tinhCam: "Tốt.", tienBac: "Khá.", congViec: "Tiến.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2080, canChi: "Giáp Ngọ", tinhCam: "Tốt.", tienBac: "Tốt.", congViec: "Tốt.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-  ],
-  "Giáp Thân": [
-    { nam: 2081, canChi: "Giáp Thân", tinhCam: "Giáp Mộc (Dụng) + Thân Kim — tốt.", tienBac: "Tốt.", congViec: "Thuận.", giaDinh: "Vui.", sucKhoe: "Tốt." },
-    { nam: 2082, canChi: "Ất Dậu", tinhCam: "Ất Mộc (Dụng) — tốt.", tienBac: "Tốt.", congViec: "Tốt.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2083, canChi: "Bính Tuất", tinhCam: "Kỵ Thần — cẩn trọng.", tienBac: "Trung bình.", congViec: "Áp lực.", giaDinh: "Quan tâm.", sucKhoe: "Chú ý." },
-    { nam: 2084, canChi: "Đinh Hợi", tinhCam: "Tốt.", tienBac: "Tốt.", congViec: "Tốt.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2085, canChi: "Mậu Tý", tinhCam: "Trung bình.", tienBac: "Ổn.", congViec: "Ổn.", giaDinh: "Ổn.", sucKhoe: "Ổn." },
-    { nam: 2086, canChi: "Kỷ Sửu", tinhCam: "Thận trọng.", tienBac: "Khó.", congViec: "Khó.", giaDinh: "Kiên nhẫn.", sucKhoe: "Yếu." },
-    { nam: 2087, canChi: "Canh Dần", tinhCam: "Tốt.", tienBac: "Tốt.", congViec: "Tốt.", giaDinh: "Vui.", sucKhoe: "Tốt." },
-    { nam: 2088, canChi: "Tân Mão", tinhCam: "Tốt.", tienBac: "Tốt.", congViec: "Tốt.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
-    { nam: 2089, canChi: "Nhâm Thìn", tinhCam: "Tốt.", tienBac: "Ổn.", congViec: "Ổn.", giaDinh: "Ổn.", sucKhoe: "Ổn." },
-    { nam: 2090, canChi: "Quý Tỵ", tinhCam: "Tốt.", tienBac: "Khá.", congViec: "Tiến.", giaDinh: "Tốt.", sucKhoe: "Tốt." },
+  "Ất Mùi": luuNienYears([
+    [2009, "Kỷ Sửu", "THỰC"], [2010, "Canh Dần", "C.TÀI"], [2011, "Tân Mão", "T.TÀI"], [2012, "Nhâm Thìn", "QUAN"],
+    [2013, "Quý Tỵ", "SÁT"], [2014, "Giáp Ngọ", "ẤN"], [2015, "Ất Mùi", "KIÊU"], [2016, "Bính Thân", "KIẾP"],
+    [2017, "Đinh Dậu", "TỶ"], [2018, "Mậu Tuất", "THƯƠNG"], [2019, "Kỷ Hợi", "THỰC"],
+  ]),
+  "Bính Thân": luuNienYears([
+    [2019, "Kỷ Hợi", "THỰC"], [2020, "Canh Tý", "C.TÀI"], [2021, "Tân Sửu", "T.TÀI"], [2022, "Nhâm Dần", "QUAN"],
+    [2023, "Quý Mão", "SÁT"], [2024, "Giáp Thìn", "ẤN"], [2025, "Ất Tỵ", "KIÊU"], [2026, "Bính Ngọ", "KIẾP"],
+    [2027, "Đinh Mùi", "TỶ"], [2028, "Mậu Thân", "THƯƠNG"], [2029, "Kỷ Dậu", "THỰC"],
+  ]),
+  "Đinh Dậu": luuNienYears([
+    [2029, "Kỷ Dậu", "THỰC"], [2030, "Canh Tuất", "C.TÀI"], [2031, "Tân Hợi", "T.TÀI"], [2032, "Nhâm Tý", "QUAN"],
+    [2033, "Quý Sửu", "SÁT"], [2034, "Giáp Dần", "ẤN"], [2035, "Ất Mão", "KIÊU"], [2036, "Bính Thìn", "KIẾP"],
+    [2037, "Đinh Tỵ", "TỶ"], [2038, "Mậu Ngọ", "THƯƠNG"], [2039, "Kỷ Mùi", "THỰC"],
+  ]),
+  "Mậu Tuất": luuNienYears([
+    [2039, "Kỷ Mùi", "THỰC"], [2040, "Canh Thân", "C.TÀI"], [2041, "Tân Dậu", "T.TÀI"], [2042, "Nhâm Tuất", "QUAN"],
+    [2043, "Quý Hợi", "SÁT"], [2044, "Giáp Tý", "ẤN"], [2045, "Ất Sửu", "KIÊU"], [2046, "Bính Dần", "KIẾP"],
+    [2047, "Đinh Mão", "TỶ"], [2048, "Mậu Thìn", "THƯƠNG"], [2049, "Kỷ Tỵ", "THỰC"],
+  ]),
+  "Kỷ Hợi": luuNienYears([
+    [2049, "Kỷ Tỵ", "THỰC"], [2050, "Canh Ngọ", "C.TÀI"], [2051, "Tân Mùi", "T.TÀI"], [2052, "Nhâm Thân", "QUAN"],
+    [2053, "Quý Dậu", "SÁT"], [2054, "Giáp Tuất", "ẤN"], [2055, "Ất Hợi", "KIÊU"], [2056, "Bính Tý", "KIẾP"],
+    [2057, "Đinh Sửu", "TỶ"], [2058, "Mậu Dần", "THƯƠNG"], [2059, "Kỷ Mão", "THỰC"],
+  ]),
+  "Canh Tý": luuNienYears([
+    [2059, "Kỷ Mão", "THỰC"], [2060, "Canh Thìn", "C.TÀI"], [2061, "Tân Tỵ", "T.TÀI"], [2062, "Nhâm Ngọ", "QUAN"],
+    [2063, "Quý Mùi", "SÁT"], [2064, "Giáp Thân", "ẤN"], [2065, "Ất Dậu", "KIÊU"], [2066, "Bính Tuất", "KIẾP"],
+    [2067, "Đinh Hợi", "TỶ"], [2068, "Mậu Tý", "THƯƠNG"], [2069, "Kỷ Sửu", "THỰC"],
+  ]),
+  "Tân Sửu": luuNienYears([
+    [2069, "Kỷ Sửu", "THỰC"], [2070, "Canh Dần", "C.TÀI"], [2071, "Tân Mão", "T.TÀI"], [2072, "Nhâm Thìn", "QUAN"],
+    [2073, "Quý Tỵ", "SÁT"], [2074, "Giáp Ngọ", "ẤN"], [2075, "Ất Mùi", "KIÊU"], [2076, "Bính Thân", "KIẾP"],
+    [2077, "Đinh Dậu", "TỶ"], [2078, "Mậu Tuất", "THƯƠNG"], [2079, "Kỷ Hợi", "THỰC"],
+  ]),
+  "Nhâm Dần": luuNienYears([
+    [2079, "Kỷ Hợi", "THỰC"], [2080, "Canh Tý", "C.TÀI"], [2081, "Tân Sửu", "T.TÀI"], [2082, "Nhâm Dần", "QUAN"],
+    [2083, "Quý Mão", "SÁT"], [2084, "Giáp Thìn", "ẤN"], [2085, "Ất Tỵ", "KIÊU"], [2086, "Bính Ngọ", "KIẾP"],
+    [2087, "Đinh Mùi", "TỶ"], [2088, "Mậu Thân", "THƯƠNG"], [2089, "Kỷ Dậu", "THỰC"],
+  ]),
+};
+
+export const tamThinTuHinh = {
+  title: "Ghi chú cách cục",
+  paragraphs: [
+    "Không xuất hiện tổ hợp Hình/Xung/Hại nào giữa 4 Địa Chi (Tỵ – Ngọ – Mùi – Thân) — các Chi chỉ liên tiếp về mặt vị trí nhưng không tạo thế xung khắc nội tại như một số lá số khác.",
+    "Điểm đáng chú ý là Ngọ và Mùi hợp thành \"Lục Hợp\" (Ngọ–Mùi hợp hóa), góp phần củng cố thêm nền tảng vững chắc quanh Nhật Chủ ở giai đoạn niên thiếu đến trưởng thành.",
   ],
 };
 
 export const summary =
-  "Đây là lá số Thân cực Vượng, cách Kiến Lộc, với khối Thổ áp đảo (ba trụ Thìn liên tiếp) tạo nên thế Tam Thìn Tự Hình hiếm gặp — chủ đề xuyên suốt là áp lực/mâu thuẫn tự thân lặp lại. Mấu chốt nằm ở Dụng Thần Mộc (Quan Sát) — lực duy nhất đủ sức khắc chế khối Tỉ Kiếp/Thổ — đi cùng Hỷ Thần Thủy để nuôi dưỡng. Mộc chỉ chiếm khoảng 11% khí toàn cục nên cần chủ động khơi mở qua vận trình, môi trường, và lối sống mới thực sự phát huy được tiềm năng dẫn dắt, định hướng vốn có. Bộ Thần Sát Hoa Cái–Thái Cực gợi ý con đường tri thức/nội tâm/tâm linh chính là \"chìa khoá\" giúp cân bằng lại năng lượng bó buộc của Thiên La và Tam Thìn Tự Hình.";
+  "Đây là lá số Thân vượng, cách Kiến Lộc — Nhật Chủ Đinh Hỏa đắc lệnh tại tháng Ngọ, có gốc vững ở Mùi, lại được Giáp Mộc sinh trợ thêm. Khác với một Thân cực vượng thuần túy, lá số có Thực-Thương (Thổ) và Tài Tinh (Kim) khá dồi dào, tạo thành dòng chảy sinh xuất mạch lạc Hỏa→Thổ→Kim→Thủy. Dụng Thần Kim đã có sẵn lực trong lá số; Hỷ Thần Thủy (Quan Tinh — cũng là chồng trong lá số) là điểm mỏng nhất, cần được nuôi dưỡng qua chính con đường Tài (sự nghiệp/tài chính vững trước, nhân duyên đến sau). Ba Đại Vận đầu đời (8–37 tuổi) thuộc nhóm Kỵ Thần nên giai đoạn này đòi hỏi chủ động và kiên nhẫn nhiều hơn; từ 38 tuổi trở đi vận trình chuyển đều sang đúng hướng Thổ–Kim–Thủy mà lá số cần, mở ra giai đoạn ổn định và thuận lợi rõ rệt nhất trong cả cuộc đời.";

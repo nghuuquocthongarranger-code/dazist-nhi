@@ -14,6 +14,7 @@ dist-ssr
 .env
 .netlify
 .vercel
+.claude
 
 # Editor directories and files
 .vscode/*

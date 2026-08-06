@@ -12,44 +12,35 @@ export interface ConvergentTheme {
 
 export const convergentThemes: ConvergentTheme[] = [
   {
-    title: "Kỷ luật là bài học lặp lại, không phải một lần rồi thôi",
-    bazi: "Tam Thìn Tự Hình (Tháng–Ngày–Giờ) — tự tạo áp lực cho chính mình, lặp đi lặp lại theo thời gian thay vì một biến cố dứt điểm.",
-    western: "Mặt Trời quincunx Diêm Vương (150°, gần như chính xác tuyệt đối) — bản sắc liên tục phải điều chỉnh trước biến động từ bên ngoài lẫn bên trong.",
-    numerology: "Nợ Nghiệp Quả 13/4 xuất hiện ngay trong Số Chủ Đạo — theo đúng nghĩa gốc, đây là con số chỉ bài học về kỷ luật và trách nhiệm bị trì hoãn, phải trả dần qua nhiều lần thay vì một lần.",
-    tuVi: "Cung Mệnh (Thiên Đồng, Cự Môn hãm) đang ở trạng thái \"Tử\" trong Vòng Trường Sinh — đúng nghĩa là \"điểm chững lại, mọi việc có xu hướng dừng, cần tĩnh tâm nhìn lại\", không phải một dòng chảy liên tục.",
+    title: "Kỷ luật là bài học cần chủ động trả, không tự nhiên mà có",
+    bazi: "Tỷ Kiếp và Ấn Tinh (Hỏa, Mộc) đều là Kỵ Thần — Thân vượng dễ nóng vội, cố chấp, cần chủ động tiết chế thay vì để bản năng dẫn dắt.",
+    numerology: "Nợ Nghiệp Quả 13/4 xuất hiện tới hai lần — cả trong Số Chủ Đạo lẫn Số Ngày Sinh — một tín hiệu rất mạnh cho thấy bài học kỷ luật/trách nhiệm từng bị trì hoãn và nay cần trả gấp bội qua nỗ lực thật sự.",
+    tuVi: "Cung Mệnh (Thiên Phủ Bình) đang ở trạng thái \"Suy\" trong Vòng Trường Sinh, lại gặp Tuần — thành quả đầu đời có xu hướng đến chậm, cần kiên nhẫn tích lũy dần thay vì mong bứt phá nhanh.",
     synthesis:
-      "Đây là chủ đề trùng khớp rõ nhất — không hệ thống nào mô tả một biến cố dứt điểm, mà cả bốn đều chỉ ra một chu kỳ tự tạo căng thẳng/chững lại lặp đi lặp lại suốt đời, gắn chặt với việc thiếu kỷ luật/tổ chức ở đâu đó trong quá khứ. Bài học chung: thay đổi thật sự đến từ việc chủ động xây dựng kỷ luật, không phải chờ áp lực tự hết.",
+      "Cả ba hệ thống đều không mô tả một khởi đầu thuận lợi tự nhiên, mà là một hành trình cần chủ động xây dựng kỷ luật và kiên nhẫn theo thời gian — đặc biệt tín hiệu Nợ Nghiệp Quả lặp lại hai lần bên Thần Số Học là lời nhắc rất đáng lưu tâm.",
   },
   {
-    title: "Năng lực dẫn dắt có thật nhưng không tự động bộc lộ",
-    bazi: "Dụng Thần Mộc (Quan Sát) chỉ chiếm ~11%, ẩn tàng trong Tàng Can, chưa thấu lộ ra Thiên Can.",
-    western: "Cụm Thủy Tinh – Sao Mộc – Thổ Tinh đóng kín ở Nhà 12 (cung ẩn giấu/hậu trường) — thế mạnh tư duy không tự nhiên phô bày ra ngoài.",
-    numerology: "Bài Học Nghiệp Quả hoàn toàn thiếu số 1 (không xuất hiện một lần nào trong tên) — về đúng định nghĩa, đây là dấu hiệu năng lực dẫn dắt/chủ động không có sẵn, phải học lại từ đầu qua trải nghiệm.",
+    title: "Vẻ ngoài sôi nổi, nội tâm cần không gian riêng để bộc lộ chiều sâu",
+    western: "Cung Mọc Bọ Cạp (trầm tĩnh, thận trọng) bao bọc một chùm 4 sao Song Tử bên trong (linh hoạt, ham nói) — người mới quen thường chỉ thấy lớp vỏ kín đáo trước, phải mất thời gian mới thấy hết sự sôi nổi thật sự bên trong.",
+    numerology: "Số Nhân Cách 3 (ấn tượng đầu vui vẻ, cuốn hút) khác hẳn Số Linh Hồn 7 (khao khát tri thức, cần nhiều thời gian một mình) — hai lớp tính cách hướng ra ngoài và hướng vào trong tồn tại song song.",
+    tuVi: "Cung Mệnh Thiên Phủ ở thế Bình — tính cách nền tảng vốn điềm đạm, kín đáo, không phô trương, cần thời gian mới bộc lộ hết.",
     synthesis:
-      "Cả ba hệ thống, bằng ba cách tính hoàn toàn khác nhau, đều đi đến cùng một kết luận: năng lực định hướng/lãnh đạo là có thật nhưng nằm ở tầng sâu, không phải thứ tự động bộc lộ. Thành quả lớn nhất đến từ việc chủ động luyện tập và tạo môi trường phù hợp, không phải chờ thời cơ tự đến.",
+      "Ba hệ thống đều mô tả một người có ít nhất hai lớp tính cách rõ rệt: bên ngoài (dù là trầm tĩnh kiểu Bọ Cạp hay vui vẻ kiểu số 3) chỉ là phần nổi, còn chiều sâu thật sự — dù là sự sôi nổi Song Tử hay khao khát tri thức số 7 — cần thời gian và sự tin tưởng mới thật sự lộ ra.",
   },
   {
-    title: "Nền tảng thực tế bên ngoài, khao khát lớn lao bên trong",
-    bazi: "Thân cực vượng với Tỉ Kiếp chiếm ~38.8% — bản chất thiên về tự lực, network rộng, nhưng Thổ dư thừa dễ khiến bảo thủ, bám giữ lối cũ.",
-    western: "Mặt Trời Kim Ngưu (thực tế, bền bỉ) đóng ở Nhà 11 (cộng đồng, lý tưởng dài hạn) — vỏ bọc ổn định nhưng hướng đến điều lớn hơn bản thân.",
-    numerology: "Số Chủ Đạo và Số Sứ Mệnh đều là 4 (nền tảng, kỷ luật, thực tế) nhưng Số Linh Hồn và Số Nhân Cách đều là Số Chủ 11 (khao khát truyền cảm hứng, trực giác mạnh) — hai lớp hoàn toàn đối lập trong cùng một lá số.",
+    title: "Tài chính và giá trị bản thân là chủ đề cần chủ động, dễ biến động",
+    bazi: "Tài Tinh (Kim) là Dụng Thần, có sẵn lực trong lá số — nhưng Quan Tinh (Thủy, cũng là chồng) lại rất yếu, cho thấy sự an toàn/giá trị bản thân cần được chủ động xây dựng, không tự nhiên đến.",
+    western: "Cụm Sao Hỏa – Diêm Vương – Chiron hội tụ tại Nhà 2 (Tài Bạch) — tài chính và cảm giác giá trị bản thân gắn chặt với nhau, dễ trải qua giai đoạn biến động mạnh hoặc cảm xúc dồn nén nếu không được nhìn nhận đúng mức.",
+    tuVi: "Cung Tài Bạch vô chính diệu, lại gặp Triệt — tài chính phần nhiều phụ thuộc vào sự chủ động của bản thân (đối chiếu cung Mệnh) hơn là trông chờ vận may.",
     synthesis:
-      "Cả ba hệ thống đều mô tả hai lớp năng lượng chồng lên nhau: một lớp vỏ thực tế, kiên trì, đáng tin cậy (Thân vượng, Kim Ngưu, số 4) và một lõi bên trong khao khát điều gì đó lớn lao, mang tính cảm hứng hơn (Nhà 11, Số Chủ 11). Cảm giác \"chưa đủ\" dù bên ngoài ổn định không phải ảo tưởng — đó là tín hiệu thật từ cả ba lá số, và hướng giải quyết là để phần thực tế phục vụ cho lý tưởng lớn hơn, thay vì chọn một trong hai.",
+      "Cả ba hệ thống đều đồng thuận: tài chính không phải điều tự nhiên đến mà gắn rất chặt với việc bản thân có tin vào giá trị của chính mình hay không — càng vững tâm lý, tài chính càng có xu hướng ổn định theo.",
   },
   {
-    title: "Tài chính bền vững gắn với kết nối, không phải tích trữ",
-    bazi: "Thủy (Hỷ Thần) là Tài Tinh — khả năng tạo/thu hút tiền tốt nhất qua kênh lưu động, giao thương, hợp tác.",
-    western: "Kim Tinh ở Nhà 11 (bạn bè/cộng đồng) và Nút Bắc ở Nhà 2 (Tài Bạch) — giá trị bản thân và tài chính phát triển qua mạng lưới xã hội và việc tự nuôi dưỡng nội lực.",
-    numerology: "Đường Tinh Thần (7-8-9) trong bảng đồ số hoàn toàn trống — không có sẵn bản năng tích trữ/vật chất đơn thuần; Số Trưởng Thành 8 (thành tựu vật chất) chỉ trở nên rõ nét từ trung niên, nghĩa là của cải không phải điểm khởi đầu tự nhiên.",
-    tuVi: "Cung Thân đóng tại Tài Bạch (vô chính diệu, có Lộc Tồn) — trọng tâm cả đời nghiêng hẳn về tài chính, và Tử Vi miếu địa tại Nô Bộc cho thấy nguồn lực đó gắn chặt với bạn bè/đối tác có vị thế chứ không phải tự thân tích luỹ đơn độc.",
+    title: "Hôn nhân cần thời gian, sự chủ động và học cách nhường nhịn",
+    bazi: "Quan Tinh (chồng) chỉ ẩn tàng trong Chi Giờ, không thấu lộ — nhân duyên đến muộn, cần chủ động tìm kiếm và thấu hiểu mới nhận ra giá trị thật.",
+    western: "Kim Tinh tại Kim Ngưu (Nhà 6) yêu chậm mà chắc, cần thời gian xây dựng lòng tin qua hành động thiết thực hơn là lời nói.",
+    tuVi: "Cung Phu Thê có Tử Vi – Phá Quân — bạn đời có cá tính mạnh, chủ kiến rõ ràng, đòi hỏi cả hai cùng nhường nhịn, tôn trọng không gian riêng của nhau.",
     synthesis:
-      "Cả bốn hệ thống đều không ủng hộ việc chôn vốn tĩnh hay làm việc đơn độc vì tiền — dòng chảy tài chính thuận nhất khi gắn với kết nối, chuyên môn thực chất và cộng đồng xung quanh, và bản thân xu hướng tích lũy vật chất cũng chỉ chín muồi dần theo thời gian chứ không phải bản năng có sẵn từ đầu.",
-  },
-  {
-    title: "Sự nghiệp là nơi phát huy thế mạnh rõ rệt nhất",
-    bazi: "Thương Quan/Thực Thần dùng tài lẻ, khả năng diễn đạt và sáng tạo để tiết chế bớt sự bảo thủ của Thân vượng.",
-    tuVi: "Cung Quan Lộc có Thiên Cơ vượng (trí tuệ linh hoạt, giỏi mưu tính, thích nghi) — một trong số ít cung chính tinh vượng địa của cả lá số, lại nằm đúng vào tam hợp với Mệnh và Tài Bạch.",
-    synthesis:
-      "Bát Tự và Tử Vi — hai hệ thống Đông phương hình thành theo hai lối tính hoàn toàn khác nhau — cùng chỉ ra sự nghiệp/công việc trí óc là nơi năng lực được phát huy rõ ràng nhất, rõ hơn hẳn so với các mảng đời sống khác của lá số.",
+      "Không hệ thống nào ủng hộ một mối tình yêu nhanh, dễ dàng — cả ba đều chỉ về một hôn nhân cần thời gian, sự chủ động vun đắp và khả năng nhường nhịn hai chiều mới thật sự bền vững.",
   },
 ];

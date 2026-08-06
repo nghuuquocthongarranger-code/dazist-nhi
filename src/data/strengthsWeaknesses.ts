@@ -7,90 +7,78 @@ export interface SwItem {
 
 export const strengths: SwItem[] = [
   {
-    text: "Năng lực tư duy/nghiên cứu độc lập mạnh, phù hợp vai trò cố vấn hậu trường hơn là phô trương trước đám đông — thế mạnh có thật nhưng cần chủ động khơi mở thay vì chờ tự lộ ra (Quan Sát ẩn tàng ↔ cụm Thủy–Mộc–Thổ Nhà 12 ↔ Karmic Lesson thiếu số 1).",
+    text: "Nhật Chủ đắc lệnh (Bát Tự) + Số Sứ Mệnh 1 (tiên phong) + Số Nhân Cách 3 (cuốn hút) đều chỉ về một người có sức ảnh hưởng, dễ trở thành người dẫn dắt trong tập thể — tiềm năng lãnh đạo thể hiện khá rõ ràng, không cần khơi mở nhiều như một số lá số khác.",
     source: "all",
   },
   {
-    text: "Vòng quan hệ xã hội rất rộng, nhiều bạn bè/đồng nghiệp/cộng đồng xuất hiện xuyên suốt — mạng lưới hỗ trợ dồi dào nếu biết chọn lọc.",
+    text: "Tài Tinh (Kim) vừa là Dụng Thần Bát Tự vừa đi cùng Lộc Tồn ở cung Mệnh Tử Vi — nền tảng tài chính vững, khả năng tích lũy tốt nếu biết kiên trì.",
     source: "both",
   },
   {
-    text: "Khả năng tạo và thu hút tài chính tốt, đặc biệt qua kênh tài chính lưu động, giao thương, hợp tác quốc tế (Thủy Hỷ Thần).",
+    text: "Thực – Thương (Thổ) chiếm tỉ trọng lớn nhất lá số Bát Tự — năng khiếu thể hiện bản thân, sáng tạo, ăn nói tốt, đồng thời là Hỷ Thần giúp tiết bớt cá tính nóng vội.",
     source: "bazi",
   },
   {
-    text: "Tài lẻ, khả năng diễn đạt và sáng tạo dùng để tiết chế bớt sự bảo thủ (Kim Hỷ Thần phụ, Thương Quan).",
-    source: "bazi",
-  },
-  {
-    text: "Duyên kết nối tình cảm tự nhiên, chủ động qua bạn bè/cộng đồng, dễ tạo thiện cảm ban đầu (Kim Tinh Bạch Dương Nhà 11).",
+    text: "Chùm 4 sao tại Song Tử (Mặt Trời, Thủy Tinh, Sao Mộc, Thổ Tinh) cho khả năng giao tiếp, học hỏi và xử lý đa nhiệm vượt trội — hiếm khi bí ý tưởng hoặc thiếu chủ đề để nói.",
     source: "western",
   },
   {
-    text: "Khéo léo ngoại giao, biết dung hòa và giữ hòa khí trong gia đình/nhóm nhỏ (Mặt Trăng Thiên Bình Nhà 4).",
+    text: "Mặt Trăng Song Ngư ở Nhà 5 mang trực giác nghệ thuật, khả năng sáng tạo và đồng cảm sâu sắc — thế mạnh tự nhiên trong các lĩnh vực cần cảm xúc/thẩm mỹ.",
     source: "western",
   },
   {
-    text: "Giao tiếp linh hoạt, thích nghi nhanh với nhiều kiểu người và hoàn cảnh (Cung Mọc Song Tử).",
-    source: "western",
-  },
-  {
-    text: "Số Linh Hồn và Số Nhân Cách đều là Số Chủ 11 — trực giác mạnh, khả năng truyền cảm hứng và thu hút sự chú ý dù chưa chủ động thể hiện.",
+    text: "Số Ngày Sinh 4 (dù mang Nợ Nghiệp Quả) vẫn là tài lẻ về phương pháp, tổ chức — một khi đã rèn được kỷ luật thì làm việc rất bền và đáng tin cậy.",
     source: "numerology",
   },
   {
-    text: "Số Ngày Sinh 5 mang tài lẻ thích nghi nhanh, bổ trợ tốt cho nền tảng ổn định của Số Chủ Đạo, giúp không quá cứng nhắc.",
+    text: "Số Trưởng Thành 5 hứa hẹn giai đoạn trung niên trở về sau cởi mở, linh hoạt hơn nhiều so với nền tảng thận trọng ban đầu — cuộc sống có xu hướng ngày càng tự do, chủ động hơn theo thời gian.",
     source: "numerology",
   },
   {
-    text: "Cung Quan Lộc có Thiên Cơ vượng — trí tuệ linh hoạt, giỏi mưu tính, thích nghi nhanh trong công việc, phù hợp vai trò tư duy/cố vấn.",
+    text: "Cung Quan Lộc (đóng cung Thân) có Thiên Tướng đắc — tinh thần trách nhiệm cao, đáng tin cậy, phù hợp vai trò quản lý/tham mưu, sự nghiệp đạt độ chín ở tuổi trung niên.",
     source: "tuvi",
   },
   {
-    text: "Cung Phụ Mẫu (Vũ Khúc, Thiên Tướng đều miếu vượng) và Tử Tức (Liêm Trinh miếu, Thiên Phủ vượng) — nền tảng gia đình và quan hệ với con cái đều vững chắc, hai chiều trên dưới thuận hòa.",
+    text: "Cung Phụ Mẫu có Thái Âm miếu — nền tảng gia đình êm ấm, được cha mẹ (đặc biệt mẹ) chăm sóc chu đáo, là điểm tựa vững chắc thời niên thiếu.",
     source: "tuvi",
   },
 ];
 
 export const weaknesses: SwItem[] = [
   {
-    text: "Dễ rơi vào áp lực/mâu thuẫn tự thân lặp đi lặp lại theo thời gian, gắn với bài học kỷ luật/trách nhiệm bị trì hoãn từ trước — cần chủ động xây kỷ luật thay vì chờ áp lực tự hết (Tam Thìn Tự Hình ↔ Mặt Trời quincunx Diêm Vương ↔ Nợ Nghiệp Quả 13/4).",
+    text: "Nợ Nghiệp Quả 13/4 (Thần Số Học) cộng hưởng với nhóm Tỷ Kiếp/Ấn (Kỵ Thần, Bát Tự) — bài học chung là dễ nóng vội, ngại kỷ luật/khuôn khổ ở giai đoạn đầu đời, cần chủ động rèn giũa thay vì né tránh, nếu không trở ngại có xu hướng lặp lại.",
     source: "all",
   },
   {
-    text: "Quan hệ đối tác/hùn vốn tiềm ẩn cạnh tranh ngầm hoặc dễ khơi lại xung đột cũ — cần hợp đồng rõ ràng, tách bạch tài chính khi hợp tác (Tỉ Kiếp cực vượng ↔ Sao Hỏa hợp Chiron trên cung Phu Thê).",
+    text: "Cung Mệnh Tử Vi gặp Tuần, Tài Bạch gặp Triệt, cộng thêm Quan Tinh (chồng, Bát Tự) còn yếu — nhiều lĩnh vực quan trọng của cuộc sống (danh phận, tài chính, hôn nhân) đều cần thời gian và sự chủ động mới thành hình, không tự nhiên mà có.",
     source: "both",
   },
   {
-    text: "Thổ dư thừa nghiêm trọng dễ gây bảo thủ, ỳ trệ, khó tiếp thu cái mới nếu không có đủ lực Khắc–Tiết–Hao cân bằng.",
+    text: "Tỷ Kiếp khá vượng (Kỵ Thần) — dễ hao tài vì nể nang bạn bè/anh chị em, cần minh bạch hóa các giao dịch tài chính chung.",
     source: "bazi",
   },
   {
-    text: "Thiên Ấn Hỏa dư dễ tạo áp lực/kỳ vọng nặng nề từ người thân, củng cố thêm sự trì trệ.",
+    text: "Ấn Tinh (Mộc) dư — Kỵ Thần — dễ cảm thấy áp lực/kỳ vọng từ người thân (đặc biệt mẹ) nặng nề hơn là được nâng đỡ nhẹ nhàng.",
     source: "bazi",
   },
   {
-    text: "Sức khỏe/thói quen sinh hoạt dễ trải qua biến động mạnh, cần chuyển hóa tận gốc thay vì xử lý tạm thời (Diêm Vương nghịch hành Nhà 6).",
+    text: "Cụm Sao Hỏa – Diêm Vương – Chiron tại Nhân Mã (Nhà 2) — tài chính/giá trị bản thân dễ trải qua biến động mạnh, căng thẳng dồn nén dễ biểu hiện ra thể chất (vùng hông – đùi).",
     source: "western",
   },
   {
-    text: "Tư duy dễ nặng nề, lo âu, đặc biệt trong giai đoạn Thủy Tinh nghịch hành (cụm Thủy Tinh hợp Thổ Tinh quincunx Sao Hỏa, Nhà 12).",
+    text: "Ascendant Bọ Cạp khiến bước đầu mọi mối quan hệ khá dè dặt, cần thời gian dài mới thật sự tin tưởng — dễ bị hiểu lầm là lạnh lùng hoặc khó gần.",
     source: "western",
   },
   {
-    text: "Số Chủ Đạo 4 dễ đi kèm sự cứng nhắc, ngại thay đổi — cộng hưởng thêm với xu hướng bảo thủ đã thấy rõ bên Bát Tự (Thổ dư thừa).",
+    text: "Bài Học Nghiệp Quả thiếu số 3 và số 4 — dù Nhân Cách bên ngoài là số 3 (vui vẻ), năng lực tổ chức/kỷ luật thật sự (số 4) vẫn cần chủ động rèn luyện nhiều hơn là tự nhiên có sẵn.",
     source: "numerology",
   },
   {
-    text: "Bài Học Nghiệp Quả thiếu số 4 (chưa quen kỷ luật/tổ chức) và số 9 (chưa quen buông bỏ vì lợi ích chung) — cần chủ động rèn luyện thay vì chờ tự nhiên có được.",
-    source: "numerology",
-  },
-  {
-    text: "Cung Mệnh (Thiên Đồng, Cự Môn đều hãm) — nội tâm nhạy cảm, dễ lo xa/đa nghi, đường đời giai đoạn đầu phải tự thân vận động, chật vật hơn để khẳng định bản thân.",
+    text: "Cung Phúc Đức có Liêm Tham đồng hãm (giai đoạn 26–35 tuổi) — đời sống tinh thần dễ trăn trở, tham vọng nhiều nhưng chưa dễ thỏa mãn, cần tìm về giá trị bền vững thay vì chạy theo ham muốn nhất thời.",
     source: "tuvi",
   },
   {
-    text: "Cung Tật Ách có Phá Quân hãm — sức khoẻ/thói quen sinh hoạt dễ biến động thất thường, cần tránh làm việc quá sức và giữ nhịp độ điều hoà.",
+    text: "Cung Phu Thê có Tử Phá — bạn đời/bản thân đều có cá tính mạnh, cần học cách nhường nhịn, tôn trọng không gian riêng để hôn nhân bền vững.",
     source: "tuvi",
   },
 ];

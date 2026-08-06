@@ -1,5 +1,5 @@
 // Lá số Tử Vi — chuyển thể từ lá số gốc (an theo http://www.phongthuymenhly.com)
-// Đương số: Nguyễn Hữu Quốc Thống — Âm Nam — (ÂL) 13/4/2001, giờ Bính Thìn — Thổ Ngũ Cục — Mệnh: Bạch Lạp Kim.
+// Đương số: Trịnh Hoàng Nhi — Âm Nữ — (ÂL) 22/4/2001, giờ Mậu Thân — Hỏa Lục Cục — Mệnh: Bạch Lạp Kim.
 
 export type TruongSinhStage =
   | "Trường Sinh"
@@ -15,7 +15,7 @@ export type TruongSinhStage =
   | "Thai"
   | "Dưỡng";
 
-export type SaoTrangThai = "Miếu" | "Vượng" | "Đắc" | "Hãm";
+export type SaoTrangThai = "Miếu" | "Vượng" | "Đắc" | "Hãm" | "Bình";
 
 export const TRUONG_SINH_TONE: Record<TruongSinhStage, "tot" | "trung-binh" | "xau"> = {
   "Trường Sinh": "tot",
@@ -51,11 +51,11 @@ export interface TuViPalace {
 }
 
 export const tuViInfo = {
-  name: "Nguyễn Hữu Quốc Thống",
-  gender: "Âm Nam",
-  birthLunar: "(ÂL) 13/4/2001, giờ Bính Thìn",
+  name: "Trịnh Hoàng Nhi",
+  gender: "Âm Nữ",
+  birthLunar: "(ÂL) 22/4/2001, giờ Mậu Thân",
   birthYear: 2001,
-  cuc: "Thổ Ngũ Cục",
+  cuc: "Hỏa Lục Cục",
   menhChu: "Bạch Lạp Kim",
   luuNienYear: 2026,
   source: "phongthuymenhly.com",
@@ -63,152 +63,153 @@ export const tuViInfo = {
 
 export const tuViPalaces: TuViPalace[] = [
   {
-    chi: "Tỵ",
-    cungName: "Quan Lộc",
-    ageRange: [85, 94],
-    mainStars: [{ name: "Thiên Cơ", state: "Vượng" }],
-    auxStars: ["Phượng Các", "Giải Thần", "Ân Quang", "Quốc Ấn", "Thiên Phúc", "Tướng Quân", "Thái Tuế", "Chỉ Bối"],
-    luuStars: ["Trực Phù", "Vong Thần", "Lộc Tồn"],
-    trietTuan: "Triệt",
-    truongSinh: "Lâm Quan",
-    summary:
-      "Thiên Cơ vượng thủ Quan Lộc — trí tuệ linh hoạt, giỏi mưu tính và thích nghi trong công việc, hợp các ngành cần tư duy, phân tích, cố vấn. Có Ân Quang, Quốc Ấn hộ chiếu nên dễ được cấp trên tín nhiệm, nhưng gặp Triệt nên con đường sự nghiệp thường phải qua một giai đoạn chững lại/làm lại trước khi thành hình rõ rệt.",
-  },
-  {
-    chi: "Ngọ",
-    cungName: "Nô Bộc",
-    ageRange: [75, 84],
-    mainStars: [{ name: "Tử Vi", state: "Miếu" }],
-    auxStars: ["Thiên Khôi", "Tiểu Hao", "Phong Cáo", "Văn Xương", "Hoá Kỵ", "Thiên Trù", "Thiên Thương", "Đấu Quân"],
-    luuStars: ["Kình Dương", "Thái Tuế", "Tướng Tinh"],
-    truongSinh: "Quan Đới",
-    summary:
-      "Tử Vi miếu địa tại cung Nô Bộc — bạn bè/đối tác/nhân viên xung quanh thường có người nổi trội, có vị thế, mang lại trợ lực lớn khi cần. Tuy vậy Hoá Kỵ đồng cung nên trong các mối quan hệ hợp tác dễ nảy sinh hiểu lầm hoặc bị người dưới/đối tác gây phiền toái nếu không khéo chọn người.",
-  },
-  {
-    chi: "Mùi",
-    cungName: "Thiên Di",
-    ageRange: [65, 74],
-    mainStars: [],
-    auxStars: ["Thanh Long", "Tá Phù", "Hữu Bật", "Tam Thai", "Địa Không", "Tang Môn", "Nguyệt Sát", "Linh Tinh", "Bát Tọa"],
-    luuStars: ["Hối Khí", "Phá Toái"],
-    truongSinh: "Mộc Dục",
-    summary:
-      "Vô chính diệu tại Thiên Di — vận ra ngoài/đi xa phần nhiều phụ thuộc vào cung Mệnh đối chiếu. Có Tá Phù, Hữu Bật nên đi xa dễ gặp quý nhân giúp đỡ; nhưng Địa Không, Tang Môn nhắc nên cẩn trọng khi di chuyển, tránh quyết định vội vàng nơi đất khách.",
-  },
-  {
-    chi: "Thân",
-    cungName: "Tật Ách",
-    ageRange: [55, 64],
-    mainStars: [{ name: "Phá Quân", state: "Hãm" }],
-    auxStars: ["Lực Sỹ", "Thiếu Âm", "Văn Khúc", "Hoá Khoa", "Kình Dương", "Vong Thần", "Cô Thần", "Âm Sát", "Thiên Sứ"],
-    luuStars: ["Tuế Dịch", "Tang Môn", "Thiên Mã"],
-    trietTuan: "Tuần",
-    truongSinh: "Trường Sinh",
-    summary:
-      "Phá Quân hãm tại Tật Ách — cơ thể/sức khoẻ dễ biến động thất thường, nên chú ý hệ tiêu hoá và thần kinh, tránh làm việc quá sức theo kiểu 'được đà lao tới'. Văn Khúc, Hoá Khoa hộ giúp phục hồi nhanh khi biết điều chỉnh nhịp sống điều độ.",
-  },
-  {
-    chi: "Thìn",
-    cungName: "Điền Trạch",
-    ageRange: [95, 104],
-    mainStars: [{ name: "Thất Sát", state: "Hãm" }],
-    auxStars: ["Tấu Thư", "Trực Phù", "Thiên Hỷ", "Thiên Sát", "Quả Tú", "Thiên Diêu", "Thiên Y", "Thiên La"],
-    luuStars: ["Điếu Khách", "Nguyệt Sát", "Đà La"],
-    trietTuan: "Triệt",
-    truongSinh: "Đế Vượng",
-    summary:
-      "Thất Sát hãm tại Điền Trạch — chuyện nhà cửa, bất động sản thường trải qua biến động lớn (mua/bán/chuyển dời) hơn là ổn định êm đềm ngay từ đầu; thành quả về nhà đất thường đến muộn nhưng bền khi đã an cư.",
-  },
-  {
     chi: "Dậu",
-    cungName: "Tài Bạch",
-    ageRange: [45, 54],
-    mainStars: [],
-    auxStars: ["Lộc Tồn", "Bác Sỹ", "Tướng Tinh", "Long Trì", "Thiên Quý", "Thiên Quan", "Quan Phù", "Phá Toái", "Tiết Độ"],
+    cungName: "Mệnh",
+    ageRange: [6, 15],
+    mainStars: [{ name: "Thiên Phủ", state: "Bình" }],
+    auxStars: ["Lộc Tồn", "Bác Sỹ", "Tướng Tinh", "Long Trì", "Thiên Quan", "Quan Phủ", "Phá Toái", "Tiết Độ"],
     luuStars: ["Hồng Loan", "Tức Thần", "Thiên Việt"],
-    truongSinh: "Dưỡng",
-    isThan: true,
+    trietTuan: "Tuần",
+    truongSinh: "Suy",
     summary:
-      "Cung Thân đóng tại Tài Bạch (vô chính diệu, có Lộc Tồn) — trọng tâm cả đời nghiêng về tích luỹ, tạo dựng tài chính; tiền bạc là thước đo quan trọng trong cách nhìn nhận thành công của bản thân. Lộc Tồn đảm bảo nguồn thu ổn định về dài hạn dù khởi đầu có thể chưa nổi bật.",
+      "Thiên Phủ ở thế Bình thủ Mệnh — tính cách điềm đạm, biết lo xa, có xu hướng thận trọng và ưa sự ổn định hơn mạo hiểm. Có Lộc Tồn đồng cung nên nhìn chung cuộc sống không thiếu thốn, nhưng gặp Tuần nên những thành quả đầu đời thường đến chậm, cần kiên nhẫn tích lũy dần thay vì mong bứt phá nhanh.",
   },
   {
     chi: "Tuất",
-    cungName: "Tử Tức",
-    ageRange: [35, 44],
-    mainStars: [
-      { name: "Liêm Trinh", state: "Miếu" },
-      { name: "Thiên Phủ", state: "Vượng" },
-    ],
-    auxStars: ["Thai Phù", "Nguyệt Đức", "Nguyệt Giải", "Địa Giải", "Quan Phủ", "Đà La", "Tử Phù", "Hồng Loan", "Địa Vong"],
-    luuStars: [],
-    truongSinh: "Thai",
-    summary:
-      "Liêm Trinh miếu, Thiên Phủ vượng tại Tử Tức — quan hệ với con cái/thế hệ sau nhìn chung tốt đẹp, con cái có tính cách rõ ràng, biết giữ khuôn phép. Bộ đôi Liêm Phủ cũng thường ứng với việc đầu tư/dự án dài hơi mang lại thành quả bền vững.",
-  },
-  {
-    chi: "Mão",
-    cungName: "Phúc Đức",
-    ageRange: [105, 114],
-    mainStars: [
-      { name: "Thái Dương", state: "Vượng" },
-      { name: "Thiên Lương", state: "Vượng" },
-    ],
-    auxStars: ["Hoá Quyền", "Phi Liêm", "Địa Kiếp", "Điếu Khách", "Tai Sát", "Lưu Hà"],
-    luuStars: ["Thiên Hỷ", "Hàm Trì", "Phúc Đức"],
-    truongSinh: "Suy",
-    summary:
-      "Thái Dương, Thiên Lương đồng vượng tại Phúc Đức — tinh thần hào sảng, trọng danh dự, biết lo xa và thường được hưởng phúc phần từ dòng họ. Hoá Quyền tăng thêm uy tín, tinh thần chủ động lo toan cho người thân dù đôi lúc ôm việc hơi nhiều.",
-  },
-  {
-    chi: "Dần",
     cungName: "Phụ Mẫu",
-    ageRange: [115, 124],
-    mainStars: [
-      { name: "Vũ Khúc", state: "Vượng" },
-      { name: "Thiên Tướng", state: "Miếu" },
-    ],
-    auxStars: ["Hỷ Thần", "Kiếp Sát", "Phúc Đức", "Thiên Đức"],
-    luuStars: ["Bạch Hổ", "Chỉ Bối"],
-    truongSinh: "Bệnh",
+    ageRange: [16, 25],
+    mainStars: [{ name: "Thái Âm", state: "Miếu" }],
+    auxStars: ["Lực Sỹ", "Nguyệt Đức", "Nguyệt Giải", "Địa Giải", "Ân Quang", "Kình Dương", "Phong Cáo", "Hồng Loan"],
+    luuStars: ["Quan Phủ", "Hoa Cái"],
+    truongSinh: "Dưỡng",
     summary:
-      "Vũ Khúc, Thiên Tướng miếu vượng tại Phụ Mẫu — cha mẹ thường là người có bản lĩnh, nguyên tắc, có khả năng tài chính hoặc vị thế nhất định, là chỗ dựa vững chắc thời thơ ấu. Quan hệ với bậc trên nhìn chung thuận, dù Vũ Khúc cứng tính đôi khi cần thêm sự mềm mỏng hai chiều.",
-  },
-  {
-    chi: "Sửu",
-    cungName: "Mệnh",
-    ageRange: [5, 14],
-    mainStars: [
-      { name: "Thiên Đồng", state: "Hãm" },
-      { name: "Cự Môn", state: "Hãm" },
-    ],
-    auxStars: ["Hoa Cái", "Hoá Lộc", "Bệnh Phù", "Bạch Hổ", "Thiên Khốc"],
-    luuStars: ["Thiên Sát", "Long Đức"],
-    truongSinh: "Tử",
-    summary:
-      "Đồng Cự hãm thủ Mệnh — tính cách thiên về nội tâm, nhạy cảm, suy nghĩ sâu và đôi khi hay lo xa/đa nghi hơn người khác; đường đời thường phải tự thân vận động, chật vật hơn ở giai đoạn đầu để khẳng định bản thân. Hoá Lộc đồng cung là điểm sáng — có duyên ăn nói, khéo tạo thiện cảm và tự tìm được nguồn thu nhập riêng dù hoàn cảnh ban đầu không dễ dàng.",
-  },
-  {
-    chi: "Tý",
-    cungName: "Huynh Đệ",
-    ageRange: [15, 24],
-    mainStars: [{ name: "Tham Lang", state: "Hãm" }],
-    auxStars: ["Long Đức", "Đại Hao", "Tức Thần", "Thiên Hình"],
-    luuStars: ["Tuế Phá", "Tai Sát"],
-    truongSinh: "Mộ",
-    summary:
-      "Tham Lang hãm tại Huynh Đệ — anh chị em có thể không thật gần gũi khăng khít hoặc mỗi người một hướng đi riêng khá sớm; tình cảm cần thời gian và sự chủ động vun đắp hai chiều mới bền.",
+      "Thái Âm miếu địa tại Phụ Mẫu — cha mẹ (đặc biệt hình ảnh mẹ) hiền hòa, chu đáo, tinh tế và là chỗ dựa tinh thần vững chắc. Quan hệ với bậc trên nhìn chung êm ấm, tuy có Kình Dương nên đôi lúc vẫn có va chạm quan điểm nhỏ cần dung hòa.",
   },
   {
     chi: "Hợi",
-    cungName: "Phu Thê",
-    ageRange: [25, 34],
-    mainStars: [{ name: "Thái Âm", state: "Miếu" }],
-    auxStars: ["Thiên Giải", "Kim Dư", "Phục Binh", "Tuế Phá", "Thiên Hư", "Thiên Vu", "Thiên Khôi"],
-    luuStars: ["Kiếp Sát", "Thiên Khôi", "Tử Phù"],
+    cungName: "Phúc Đức",
+    ageRange: [26, 35],
+    mainStars: [
+      { name: "Liêm Trinh", state: "Hãm" },
+      { name: "Tham Lang", state: "Hãm" },
+    ],
+    auxStars: ["Thanh Long", "Thiên Giải", "Thiên Vu", "Thiên Hư", "Thiên Khôi"],
+    luuStars: ["Kiếp Sát", "Long Đức"],
+    truongSinh: "Lâm Quan",
+    summary:
+      "Liêm Tham đồng hãm tại Phúc Đức — đời sống tinh thần/nội tâm giai đoạn này (25–34 tuổi) dễ có phần trăn trở, tham vọng nhiều nhưng chưa dễ thỏa mãn ngay; cần chủ động tìm về những giá trị tinh thần bền vững thay vì chạy theo ham muốn nhất thời để giữ được sự an yên.",
+  },
+  {
+    chi: "Tý",
+    cungName: "Điền Trạch",
+    ageRange: [36, 45],
+    mainStars: [{ name: "Cự Môn", state: "Vượng" }],
+    auxStars: ["Long Đức", "Văn Khúc", "Hoá Lộc", "Hoá Khoa", "Tiểu Hao", "Tức Thần", "Thiên Hình"],
+    luuStars: ["Thiên Sát", "Tai Sát"],
+    truongSinh: "Quan Đới",
+    summary:
+      "Cự Môn vượng tại Điền Trạch, có Hoá Lộc/Hoá Khoa đồng cung — chuyện nhà cửa, bất động sản có thể trải qua đôi lần bàn tính/thương lượng kỹ lưỡng (đúng bản chất Cự Môn) trước khi ổn định, nhưng khi đã an cư thì khá vững vàng và có giá trị tăng theo thời gian.",
+  },
+  {
+    chi: "Sửu",
+    cungName: "Quan Lộc",
+    ageRange: [46, 55],
+    mainStars: [{ name: "Thiên Tướng", state: "Đắc" }],
+    auxStars: ["Hoa Cái", "Tướng Quân", "Bạch Hổ", "Thiên Khốc"],
+    luuStars: ["Thiên Sát", "Long Đức"],
+    truongSinh: "Mộc Dục",
+    isThan: true,
+    summary:
+      "Cung Thân đóng tại Quan Lộc, Thiên Tướng đắc địa — trọng tâm cả đời nghiêng hẳn về sự nghiệp, công danh; là người có tinh thần trách nhiệm cao, làm việc có nguyên tắc, phù hợp vai trò tham mưu/quản lý đáng tin cậy. Giai đoạn 46–55 tuổi thường là lúc sự nghiệp đạt độ chín và ổn định nhất.",
+  },
+  {
+    chi: "Dần",
+    cungName: "Nô Bộc",
+    ageRange: [56, 65],
+    mainStars: [
+      { name: "Thiên Đồng", state: "Miếu" },
+      { name: "Thiên Lương", state: "Vượng" },
+    ],
+    auxStars: ["Tấu Thư", "Thai Phụ", "Phúc Đức", "Thiên Nguyệt Đức", "Kiếp Sát", "Hoa Cái", "Đường Phù"],
+    luuStars: ["Bạch Hổ", "Chỉ Bối", "Thiên Khôi", "Tử Phù"],
+    truongSinh: "Trường Sinh",
+    summary:
+      "Đồng Lương miếu vượng tại Nô Bộc — bạn bè, cộng sự, nhân viên xung quanh thường hiền hòa, biết chăm lo và giúp đỡ lẫn nhau chân thành; các mối quan hệ hợp tác trong giai đoạn này (56–65 tuổi) mang lại cảm giác ấm áp, tin cậy hơn là toan tính.",
+  },
+  {
+    chi: "Mão",
+    cungName: "Thiên Di",
+    ageRange: [66, 75],
+    mainStars: [
+      { name: "Vũ Khúc", state: "Đắc" },
+      { name: "Thất Sát", state: "Hãm" },
+    ],
+    auxStars: ["Phi Liêm", "Địa Không", "Điếu Khách", "Thiên Diêu", "Tai Sát", "Lưu Hà"],
+    luuStars: ["Thiên Hỷ", "Hàm Trì", "Phúc Đức"],
+    truongSinh: "Dưỡng",
+    summary:
+      "Vũ Sát tại Thiên Di — ra ngoài/thay đổi môi trường trong giai đoạn này thường mang tính quyết đoán, dứt khoát (đúng chất Vũ Khúc) nhưng Thất Sát hãm nên đi xa dễ gặp trắc trở/biến động bất ngờ hơn là suôn sẻ — nên cân nhắc kỹ trước các quyết định di chuyển lớn.",
+  },
+  {
+    chi: "Thìn",
+    cungName: "Tật Ách",
+    ageRange: [76, 85],
+    mainStars: [{ name: "Thái Dương", state: "Vượng" }],
+    auxStars: ["Hỷ Thần", "Thiên Hỷ", "Thiên Y", "Tam Thai", "Thiên Quý", "Trực Phù", "Thiên Sát", "Quả Tú", "Thiên Diêu", "Thiên La"],
+    luuStars: ["Điếu Khách", "Nguyệt Sát", "Đà La"],
+    trietTuan: "Triệt",
+    truongSinh: "Thai",
+    summary:
+      "Thái Dương vượng tại Tật Ách — nhìn chung sức khoẻ thể trạng khá tốt, nhưng gặp Triệt nên cần lưu ý các vấn đề liên quan tim mạch/mắt/huyết áp, khám sức khỏe định kỳ để phòng ngừa hơn là chủ quan vào nền tảng vốn có.",
+  },
+  {
+    chi: "Tỵ",
+    cungName: "Tài Bạch",
+    ageRange: [86, 95],
+    mainStars: [],
+    auxStars: ["Phượng Các", "Giải Thần", "Quốc Ấn", "Thiên Phúc", "Bệnh Phù", "Thái Tuế", "Chỉ Bối"],
+    luuStars: ["Trực Phù", "Vong Thần", "Lộc Tồn"],
+    trietTuan: "Triệt",
     truongSinh: "Tuyệt",
     summary:
-      "Thái Âm miếu địa tại Phu Thê — bạn đời thường dịu dàng, tinh tế, chu đáo và có đời sống nội tâm phong phú, mang lại cảm giác an ổn trong hôn nhân. Đây cũng là Đại Vận hiện tại (25–34 tuổi, ứng Lưu Niên Bính Ngọ 2026) — giai đoạn các chủ đề tình cảm, hôn nhân trở thành tâm điểm nổi bật của cuộc sống.",
+      "Vô chính diệu tại Tài Bạch, lại gặp Triệt — tài chính giai đoạn này phần nhiều phụ thuộc vào cung Mệnh đối chiếu và cần sự thận trọng chủ động hơn là trông chờ vận may; Lộc Tồn lưu là điểm tựa giúp duy trì được sự ổn định căn bản.",
+  },
+  {
+    chi: "Ngọ",
+    cungName: "Tử Tức",
+    ageRange: [96, 105],
+    mainStars: [{ name: "Thiên Cơ", state: "Đắc" }],
+    auxStars: ["Thiên Khôi", "Đại Hao", "Thiếu Dương", "Hối Khí", "Thiên Thọ", "Hàm Trì", "Thiên Trù", "Linh Tinh"],
+    luuStars: ["Kình Dương", "Thái Tuế", "Tướng Tinh"],
+    truongSinh: "Mộ",
+    summary:
+      "Thiên Cơ đắc địa tại Tử Tức — quan hệ với con cái/thế hệ sau linh hoạt, cởi mở, nhiều biến chuyển theo hướng tích cực; con cái (nếu có trong giai đoạn tương ứng) thường thông minh, nhanh nhạy.",
+  },
+  {
+    chi: "Mùi",
+    cungName: "Phu Thê",
+    ageRange: [106, 115],
+    mainStars: [
+      { name: "Tử Vi", state: "Đắc" },
+      { name: "Phá Quân", state: "Vượng" },
+    ],
+    auxStars: ["Tả Phù", "Hữu Bật", "Phục Binh", "Tang Môn", "Linh Tinh"],
+    luuStars: ["Hối Khí", "Phan An"],
+    truongSinh: "Tử",
+    summary:
+      "Tử Phá tại Phu Thê — bạn đời có cá tính mạnh, chủ kiến rõ ràng, thậm chí có phần cứng cỏi/độc lập; hôn nhân cần cả hai cùng nhường nhịn, tôn trọng không gian riêng của nhau. Có Tả Phù, Hữu Bật đồng cung là điểm tựa giúp mối quan hệ thêm phần vững vàng.",
+  },
+  {
+    chi: "Thân",
+    cungName: "Huynh Đệ",
+    ageRange: [116, 125],
+    mainStars: [],
+    auxStars: ["Thiếu Âm", "Quan Phủ", "Đà La", "Vong Thần", "Cô Thần", "Âm Sát"],
+    luuStars: ["Tuế Dịch", "Tang Môn", "Thiên Mã"],
+    trietTuan: "Tuần",
+    truongSinh: "Bệnh",
+    summary:
+      "Vô chính diệu tại Huynh Đệ, gặp Tuần — quan hệ anh chị em có phần mờ nhạt hoặc mỗi người một hướng đi riêng khá sớm, cần chủ động hơn trong việc giữ liên lạc, gắn kết theo thời gian.",
   },
 ];
 

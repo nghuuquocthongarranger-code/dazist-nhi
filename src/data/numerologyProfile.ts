@@ -19,43 +19,43 @@ export const currentPersonalCycle = computePersonalCycle(birthDay, birthMonth, n
 
 export const numerologyMeaning: Record<string, { headline: string; paragraphs: string[] }> = {
   lifePath: {
-    headline: "Số Chủ Đạo 4 — Người xây nền bằng sự kiên trì",
+    headline: "Số Chủ Đạo 4 (Nợ Nghiệp Quả 13/4) — Bài học kỷ luật cần trả gấp",
     paragraphs: [
-      "Số Chủ Đạo (Life Path) là con số quan trọng nhất trong thần số học, mô tả bài học lớn và hướng đi xuyên suốt cuộc đời. Số 4 gắn với nền tảng, trật tự, kỷ luật và tinh thần làm việc bền bỉ — bạn tiến bộ chậm mà chắc, xây dựng mọi thứ trên nền móng vững chắc thay vì đi đường tắt.",
-      "Người số 4 thường được tin cậy vì tính thực tế, có tổ chức và trách nhiệm cao; điểm cần lưu tâm là dễ trở nên cứng nhắc, ngại thay đổi hoặc ôm đồm quá nhiều việc vì tâm lý phải tự tay kiểm soát mọi chi tiết.",
+      "Số Chủ Đạo (Life Path) là con số quan trọng nhất trong thần số học, mô tả bài học lớn và hướng đi xuyên suốt cuộc đời. Số 4 gắn với nền tảng, trật tự, kỷ luật và tinh thần làm việc bền bỉ — tiến bộ chậm mà chắc, xây dựng mọi thứ trên nền móng vững chắc thay vì đi đường tắt.",
+      "Đi kèm là Nợ Nghiệp Quả 13/4 — dấu hiệu cho thấy bài học kỷ luật/trách nhiệm này từng bị trốn tránh và nay cần \"trả lại\" gấp nhiều lần hơn qua việc thật sự làm việc chăm chỉ, có tổ chức. Nếu lười biếng hoặc tìm đường tắt, trở ngại có xu hướng lặp đi lặp lại cho đến khi bài học được học trọn vẹn — nhưng một khi đã kiên trì đủ lâu, thành quả đạt được thường rất bền vững.",
     ],
   },
   expression: {
-    headline: "Số Sứ Mệnh 4 — Thể hiện ra ngoài bằng sự đáng tin cậy",
+    headline: "Số Sứ Mệnh 1 — Thể hiện ra ngoài bằng tinh thần tiên phong",
     paragraphs: [
-      "Số Sứ Mệnh (Expression/Destiny) — suy ra từ toàn bộ họ tên — cho biết tài năng và cách bạn thể hiện bản thân ra thế giới bên ngoài. Trùng với Số Chủ Đạo ở số 4 càng nhấn mạnh thêm bản chất thực tế, có tổ chức: người khác nhìn vào bạn như một điểm tựa đáng tin, luôn hoàn thành việc được giao đúng hẹn.",
-      "Tài năng thiên về quản lý quy trình, xây dựng hệ thống, hoặc các công việc đòi hỏi độ chính xác và kiên nhẫn cao.",
+      "Số Sứ Mệnh (Expression/Destiny) — suy ra từ toàn bộ họ tên — cho biết tài năng và cách bạn thể hiện bản thân ra thế giới bên ngoài. Số 1 tương phản thú vị với nền tảng thận trọng của Số Chủ Đạo 4: ra ngoài lại thể hiện như một người chủ động, thích dẫn đầu, không ngại đứng ra khởi xướng điều mới.",
+      "Tài năng thiên về lãnh đạo, khởi nghiệp, hoặc bất kỳ vai trò nào cần người tiên phong mở đường — miễn là đi cùng với sự kiên trì của số 4 để không bỏ dở giữa chừng.",
     ],
   },
   soulUrge: {
-    headline: "Số Linh Hồn 11 (Số Chủ) — Khao khát truyền cảm hứng",
+    headline: "Số Linh Hồn 7 — Khao khát tri thức và không gian riêng",
     paragraphs: [
-      "Số Linh Hồn (Soul Urge) — suy từ các nguyên âm trong tên — phản ánh động lực sâu bên trong, điều bạn thực sự khao khát dù không luôn thể hiện ra ngoài. Số 11 là một Số Chủ (Master Number): bên dưới vẻ ngoài thực tế của số 4, nội tâm lại khao khát điều gì đó lớn lao hơn — cảm hứng, trực giác, ý nghĩa tinh thần, mong muốn tạo ảnh hưởng tích cực đến người khác.",
-      "Số Chủ 11 mang nhiều tiềm năng nhưng cũng đi kèm áp lực nội tâm cao hơn số 2 thường (11 rút gọn) — dễ nhạy cảm, lo âu hoặc tự đặt kỳ vọng quá cao cho chính mình.",
+      "Số Linh Hồn (Soul Urge) — suy từ các nguyên âm trong tên — phản ánh động lực sâu bên trong, điều bạn thực sự khao khát dù không luôn thể hiện ra ngoài. Số 7 khao khát sự hiểu biết, chân lý, những câu trả lời sâu sắc hơn bề mặt — cần nhiều thời gian một mình để suy ngẫm, dễ cảm thấy ngột ngạt nếu môi trường xung quanh quá ồn ào hoặc hời hợt.",
+      "Đây cũng là mảnh ghép khá kín đáo, ít khi bộc lộ hết ra ngoài — người xung quanh thường chỉ thấy phần năng động, tiên phong (Sứ Mệnh 1) mà không dễ nhận ra chiều sâu nội tâm này.",
     ],
   },
   personality: {
-    headline: "Số Nhân Cách 11 (Số Chủ) — Vẻ ngoài cuốn hút, có phần bí ẩn",
+    headline: "Số Nhân Cách 3 — Vẻ ngoài vui vẻ, cuốn hút, giàu biểu cảm",
     paragraphs: [
-      "Số Nhân Cách (Personality) — suy từ các phụ âm trong tên — là ấn tượng đầu tiên người khác cảm nhận về bạn. Cũng là một Số Chủ 11, vẻ ngoài của bạn toát ra điều gì đó đặc biệt, truyền cảm hứng hoặc hơi khó đoán, khiến người khác chú ý dù chưa hiểu rõ con người thật bên trong.",
-      "Việc cả Linh Hồn lẫn Nhân Cách đều là số Chủ 11 là một sự cộng hưởng đáng chú ý — năng lượng trực giác/truyền cảm hứng vừa là động lực nội tâm thật sự, vừa là điều thể hiện khá rõ ra bên ngoài, không bị che giấu nhiều bởi lớp vỏ số 4 thực tế.",
+      "Số Nhân Cách (Personality) — suy từ các phụ âm trong tên — là ấn tượng đầu tiên người khác cảm nhận về bạn. Số 3 cho ấn tượng ban đầu vui vẻ, hoạt ngôn, có khiếu hài hước hoặc nghệ thuật, tạo cảm giác dễ gần và ấm áp ngay từ lần gặp đầu tiên.",
+      "Vẻ ngoài sôi nổi này là lớp phủ khá khác so với chiều sâu trầm lắng của Số Linh Hồn 7 — người mới quen thường cần thời gian mới nhận ra bên dưới sự vui vẻ còn có một nội tâm thích suy ngẫm, cần không gian riêng.",
     ],
   },
   birthday: {
-    headline: "Số Ngày Sinh 5 — Tài lẻ thích nghi, ham khám phá",
+    headline: "Số Ngày Sinh 4 (sinh ngày 13) — Tài lẻ kỷ luật, làm việc có phương pháp",
     paragraphs: [
-      "Số Ngày Sinh là tài năng bổ trợ, đến từ đúng ngày bạn chào đời (mùng 5). Số 5 mang năng lượng linh hoạt, thích tự do, ham tìm hiểu cái mới — bổ sung một nét động, thích nghi nhanh bên cạnh nền tảng ổn định của Số Chủ Đạo 4, giúp bạn không bị quá cứng nhắc trong cách tiếp cận vấn đề.",
+      "Số Ngày Sinh là tài năng bổ trợ, đến từ đúng ngày chào đời (ngày 13, rút gọn còn 4). Trùng với Số Chủ Đạo, con số này càng nhấn mạnh thêm bài học nền tảng/kỷ luật — vì sinh đúng ngày mang Nợ Nghiệp Quả 13, tài năng bổ trợ này cần được rèn giũa nghiêm túc, không nên xem nhẹ, mới thật sự phát huy hết tiềm năng.",
     ],
   },
   maturity: {
-    headline: "Số Trưởng Thành 8 — Giai đoạn sau hướng về thành tựu, quyền lực",
+    headline: "Số Trưởng Thành 5 — Giai đoạn sau hướng về tự do, trải nghiệm",
     paragraphs: [
-      "Số Trưởng Thành (Maturity) — tổng của Số Chủ Đạo và Số Sứ Mệnh — mô tả xu hướng chuyển dịch dần theo thời gian, thường rõ nét hơn từ độ tuổi trung niên trở đi. Số 8 hướng về thành tựu vật chất, năng lực quản lý/lãnh đạo và sự tự tin trong các quyết định lớn — cho thấy nền tảng kiên trì (số 4) của giai đoạn đầu đời sẽ dần kết trái thành thành quả cụ thể, hữu hình hơn khi về sau.",
+      "Số Trưởng Thành (Maturity) — tổng của Số Chủ Đạo và Số Sứ Mệnh — mô tả xu hướng chuyển dịch dần theo thời gian, thường rõ nét hơn từ độ tuổi trung niên trở đi. Số 5 hướng về sự tự do, thay đổi, ham trải nghiệm cái mới — cho thấy nền tảng kỷ luật gây dựng ở giai đoạn đầu đời (số 4) sẽ dần mở ra thành một cuộc sống cởi mở, linh hoạt và sẵn sàng thay đổi hướng đi hơn khi về sau, miễn là gốc rễ kỷ luật đã đủ vững.",
     ],
   },
   attitude: {
