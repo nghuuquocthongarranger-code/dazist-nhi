@@ -29,7 +29,7 @@ export const convergentThemes: ConvergentTheme[] = [
   },
   {
     title: "Tài chính và giá trị bản thân là chủ đề cần chủ động, dễ biến động",
-    bazi: "Tài Tinh (Kim) là Dụng Thần, có sẵn lực trong lá số — nhưng Quan Tinh (Thủy, cũng là chồng) lại rất yếu, cho thấy sự an toàn/giá trị bản thân cần được chủ động xây dựng, không tự nhiên đến.",
+    bazi: "Tài Tinh (Kim) là Hỷ Thần, có sẵn lực trong lá số — nhưng Quan Tinh (Thủy, cũng là chồng) lại rất yếu, cho thấy sự an toàn/giá trị bản thân cần được chủ động xây dựng, không tự nhiên đến.",
     western: "Cụm Sao Hỏa – Diêm Vương – Chiron hội tụ tại Nhà 2 (Tài Bạch) — tài chính và cảm giác giá trị bản thân gắn chặt với nhau, dễ trải qua giai đoạn biến động mạnh hoặc cảm xúc dồn nén nếu không được nhìn nhận đúng mức.",
     tuVi: "Cung Tài Bạch vô chính diệu, lại gặp Triệt — tài chính phần nhiều phụ thuộc vào sự chủ động của bản thân (đối chiếu cung Mệnh) hơn là trông chờ vận may.",
     synthesis:

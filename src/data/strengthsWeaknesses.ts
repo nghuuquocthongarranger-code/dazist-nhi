@@ -11,11 +11,11 @@ export const strengths: SwItem[] = [
     source: "all",
   },
   {
-    text: "Tài Tinh (Kim) vừa là Dụng Thần Bát Tự vừa đi cùng Lộc Tồn ở cung Mệnh Tử Vi — nền tảng tài chính vững, khả năng tích lũy tốt nếu biết kiên trì.",
+    text: "Tài Tinh (Kim) là Hỷ Thần Bát Tự, lại đi cùng Lộc Tồn ở cung Mệnh Tử Vi — nền tảng tài chính vững, khả năng tích lũy tốt nếu biết kiên trì.",
     source: "both",
   },
   {
-    text: "Thực – Thương (Thổ) chiếm tỉ trọng lớn nhất lá số Bát Tự — năng khiếu thể hiện bản thân, sáng tạo, ăn nói tốt, đồng thời là Hỷ Thần giúp tiết bớt cá tính nóng vội.",
+    text: "Thực – Thương (Thổ) chiếm tỉ trọng lớn nhất lá số Bát Tự — năng khiếu thể hiện bản thân, sáng tạo, ăn nói tốt, đồng thời là Dụng Thần chủ đạo giúp tiết bớt cá tính nóng vội.",
     source: "bazi",
   },
   {

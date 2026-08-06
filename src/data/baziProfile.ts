@@ -88,35 +88,36 @@ export const bodyStrength = {
   verdict: "THÂN VƯỢNG",
   cachCuc: "Kiến Lộc",
   paragraphs: [
-    "Nhật Chủ Đinh (Hỏa) sinh vào tháng Ngọ — đúng vị trí Đế Vượng/Lộc của Hỏa trong vòng Trường Sinh — nên gọi là \"đắc lệnh\", yếu tố quan trọng nhất khi định Vượng/Nhược. Cách cục Kiến Lộc: tàng can chính khí của Chi Tháng (Ngọ) là Đinh, trùng Tỷ Kiên với Nhật Chủ. Cộng thêm Chi Ngày (Mùi) cũng tàng Đinh (đắc địa) và Giáp Mộc thấu can ở Tháng sinh trợ thêm, Nhật Chủ vững gốc, đủ sức gánh vác một lá số có Thực-Thương-Tài khá đầy đủ.",
-    "Điểm khác biệt so với một Thân cực vượng thuần túy: bên cạnh phe Tỷ/Kiếp/Ấn (~38.6%), lá số còn có Thực Thần – Thương Quan (Thổ, ~32.9%) và Tài tinh (Kim, ~24.3%) khá dồi dào — tạo thành một dòng chảy \"sinh – tiết – sinh\" khá mạch lạc (Hỏa sinh Thổ, Thổ sinh Kim). Đây là lá số Thân vượng có lối thoát tốt, miễn là biết tận dụng đúng hướng Thực-Thương-Tài thay vì chỉ dựa vào bản năng (Tỷ Kiếp) hay được bao bọc (Ấn).",
+    "Nhật Chủ Đinh (Hỏa) sinh vào tháng Ngọ — đúng vị trí Đế Vượng/Lộc của Hỏa trong vòng Trường Sinh — nên gọi là \"đắc lệnh\", yếu tố quan trọng nhất khi định Vượng/Nhược theo cổ pháp Tử Bình. Cách cục Kiến Lộc (do chính hệ thống lập lá số xác nhận): tàng can chính khí của Chi Tháng (Ngọ) là Đinh, trùng Tỷ Kiên với Nhật Chủ. Cộng thêm Chi Ngày (Mùi) cũng tàng Đinh (đắc địa) và Giáp Mộc thấu can ở Tháng sinh trợ thêm, Nhật Chủ vững gốc ngay tại nơi quan trọng nhất của lá số.",
+    "Lưu ý minh bạch: nếu chỉ đếm đơn thuần theo tỉ trọng Thiên Can + Tàng Can (không tính trọng số theo mùa), phe sinh/trợ Nhật Chủ (Tỷ Kiếp + Ấn) chỉ chiếm ~38.6%, thấp hơn phe tiết/hao/khắc (Thực-Thương-Tài-Quan Sát, ~61.4%) — nhìn thoáng qua con số này dễ gây hiểu lầm là Thân Nhược. Nhưng theo đúng nguyên tắc cổ điển, \"đắc lệnh\" (sinh đúng tháng Lộc/Đế Vượng) được coi trọng hơn hẳn phép đếm khí đơn thuần — bản thân việc lá số hình thành đúng Cách Cục Kiến Lộc (một cách cục chỉ xuất hiện khi Nhật Chủ đủ vững tại tháng sinh) là bằng chứng độc lập củng cố thêm cho kết luận Thân Vượng, không phải một lựa chọn tùy tiện.",
+    "Điểm khác biệt so với một Thân cực vượng thuần túy: bên cạnh phe Tỷ/Kiếp/Ấn, lá số còn có Thực Thần – Thương Quan (Thổ, ~32.9% — nhóm lớn nhất lá số) và Tài tinh (Kim, ~24.3%) khá dồi dào — tạo thành một dòng chảy \"sinh – tiết – sinh\" rất mạch lạc (Hỏa sinh Thổ, Thổ sinh Kim, Kim sinh Thủy). Đây là lá số Thân vượng có lối thoát tốt, miễn là biết tận dụng đúng hướng Thực-Thương-Tài thay vì chỉ dựa vào bản năng (Tỷ Kiếp) hay được bao bọc (Ấn).",
   ],
 };
 
 export const dungHyKy = [
   {
     role: "dung-than" as const,
-    colorElement: "kim" as const,
+    colorElement: "tho" as const,
     title: "Dụng Thần",
-    element: "Kim (Tài Tinh)",
-    tenGod: "Chính Tài (Canh) & Thiên Tài (Tân)",
-    desc: "Đã có sẵn lực đáng kể trong lá số (~24.3%) — vừa hao/tiết bớt Hỏa qua đường sinh xuất (Tài là thứ Nhật Chủ khắc ra), vừa sinh thêm cho Thủy (Kim sinh Thủy) để nuôi dưỡng Quan Tinh vốn đang rất mỏng. Là lực khả thi nhất để giữ thế quân bình cho lá số ngay từ hiện tại.",
+    element: "Thổ (Thực Thần – Thương Quan)",
+    tenGod: "Thực Thần (Kỷ) & Thương Quan (Mậu)",
+    desc: "Chiếm tỉ trọng lớn nhất lá số (~32.9%) và là bước tiết khí tự nhiên, trực tiếp đầu tiên ngay sau Hỏa vượng (Hỏa sinh Thổ) — lực cân bằng chủ đạo, có sẵn và hiệu quả nhất ngay từ hiện tại, không cần chờ vận trình đưa đến.",
   },
   {
     role: "hy-than" as const,
-    colorElement: "thuy" as const,
+    colorElement: "kim" as const,
     title: "Hỷ Thần",
-    element: "Thủy (Quan Tinh)",
-    tenGod: "Chính Quan (Nhâm)",
-    desc: "Về lý thuyết đây mới là lực khắc chế trực tiếp Hỏa vượng, nhưng trong lá số Thủy cực yếu (chỉ ~4.3%, một mình Nhâm tàng trung khí trong Thân) — là \"chỗ khuyết\" rõ nhất của lá số. Cần được Kim sinh trợ thêm mới đủ sức phát huy vai trò khắc chế và mang lại kỷ luật, chừng mực.",
+    element: "Kim (Tài Tinh)",
+    tenGod: "Chính Tài (Canh) & Thiên Tài (Tân)",
+    desc: "Tiếp nối ngay sau Dụng Thần Thổ trong dòng chảy (Thổ sinh Kim, ~24.3%) — vừa giúp duy trì đà tiết khí, vừa sinh thêm cho Thủy, đưa năng lượng cân bằng đi xa hơn về phía Quan Tinh.",
   },
   {
     role: "hy-than-phu" as const,
-    colorElement: "tho" as const,
-    title: "Hỷ Thần phụ",
-    element: "Thổ (Thực – Thương)",
-    tenGod: "Thực Thần (Kỷ) & Thương Quan (Mậu)",
-    desc: "Chiếm tỉ trọng lớn nhất lá số (~32.9%) — tiết bớt khí Hỏa dư thừa một cách tự nhiên, đồng thời sinh ra Kim (Dụng Thần) nên đóng vai trò cầu nối rất tích cực trong dòng chảy Hỏa → Thổ → Kim → Thủy.",
+    colorElement: "thuy" as const,
+    title: "Hỷ Thần phụ (mục tiêu cần nuôi dưỡng)",
+    element: "Thủy (Quan Tinh)",
+    tenGod: "Chính Quan (Nhâm)",
+    desc: "Về lý thuyết đây là lực khắc chế trực tiếp Hỏa hiệu quả nhất, nhưng trong lá số Thủy cực yếu (chỉ ~4.3%, một mình Nhâm tàng trung khí trong Thân) — là đích đến cuối cùng của cả dòng chảy Hỏa → Thổ → Kim → Thủy, cần được Kim sinh trợ thêm mới đủ sức phát huy.",
   },
   {
     role: "ky-than" as const,
@@ -148,7 +149,7 @@ export const family = [
   {
     role: "Cha",
     tenGod: "Thiên Tài (Tân Kim, thấu can ở trụ Năm)",
-    desc: "Cha xuất hiện sớm và rõ nét (trụ Năm), là Dụng Thần nên nhìn chung là người có năng lực xoay xở, tạo dựng tài chính khá tốt — ảnh hưởng tích cực và khá đậm nét đến cách bạn nhìn nhận về tiền bạc, công việc ngay từ nhỏ.",
+    desc: "Cha xuất hiện sớm và rõ nét (trụ Năm), là Hỷ Thần nên nhìn chung là người có năng lực xoay xở, tạo dựng tài chính khá tốt — ảnh hưởng tích cực và khá đậm nét đến cách bạn nhìn nhận về tiền bạc, công việc ngay từ nhỏ.",
   },
   {
     role: "Mẹ",
@@ -192,7 +193,7 @@ export const health = [
   {
     organ: "Phổi, hệ hô hấp, da",
     element: "kim" as const,
-    note: "Kim khá vượng (24.3%, là Dụng Thần) — nhìn chung là điểm mạnh về thể trạng, nhưng nên tránh môi trường ô nhiễm/khói bụi kéo dài để giữ được lợi thế này.",
+    note: "Kim khá vượng (24.3%, là Hỷ Thần) — nhìn chung là điểm mạnh về thể trạng, nhưng nên tránh môi trường ô nhiễm/khói bụi kéo dài để giữ được lợi thế này.",
   },
   {
     organ: "Thận, hệ tiết niệu, xương khớp",
@@ -206,7 +207,7 @@ export const healthGeneral =
 
 export const wealth = {
   taiTinh:
-    "Canh Kim (Chính Tài) và Tân Kim (Thiên Tài) đều hiện diện — Tân thấu lộ ngay trụ Năm, Canh tàng trong cả Tỵ lẫn Thân — Tài Tinh vừa là Dụng Thần vừa có gốc khá vững, cho thấy khả năng tạo ra và tích lũy tiền bạc tốt, đặc biệt qua các lĩnh vực liên quan Kim (tài chính, kim loại, công nghệ, kỹ thuật chính xác) hoặc bất cứ ngành nào đòi hỏi độ chuẩn xác, kỷ luật.",
+    "Canh Kim (Chính Tài) và Tân Kim (Thiên Tài) đều hiện diện — Tân thấu lộ ngay trụ Năm, Canh tàng trong cả Tỵ lẫn Thân — Tài Tinh là Hỷ Thần, nối tiếp ngay sau Dụng Thần Thổ trong dòng chảy cân bằng của lá số, lại có gốc khá vững, cho thấy khả năng tạo ra và tích lũy tiền bạc tốt, đặc biệt qua các lĩnh vực liên quan Kim (tài chính, kim loại, công nghệ, kỹ thuật chính xác) hoặc bất cứ ngành nào đòi hỏi độ chuẩn xác, kỷ luật.",
   risk:
     "Rủi ro lớn nhất đến từ Tỷ Kiếp (Kỵ Thần, ~22.9%) — dễ hao tài vì nể nang bạn bè/anh chị em, cho vay mượn khó đòi, hùn vốn không rõ ràng. Ngoài ra Thân vượng dễ khiến quyết định chi tiêu mang tính bộc phát, cảm tính nhất thời hơn là tính toán dài hạn.",
   suggestion:
@@ -214,8 +215,8 @@ export const wealth = {
 };
 
 export const career = [
-  "Nghề nghiệp phù hợp nhất thiên về hành Kim (tài chính – ngân hàng, kỹ thuật chính xác, công nghệ, luật) kết hợp Thủy (truyền thông, tư vấn, ngoại giao, giao thương quốc tế) — đây đồng thời là Dụng và Hỷ Thần của lá số.",
-  "Thực Thần – Thương Quan (Thổ) rất vượng — cho thấy năng khiếu thể hiện bản thân, sáng tạo, ăn nói tốt; có thể phát huy mạnh trong các vai trò cần trình bày, thuyết phục, xây dựng thương hiệu cá nhân.",
+  "Thực Thần – Thương Quan (Thổ, Dụng Thần, ~32.9% — nhóm lớn nhất lá số) cho năng khiếu thể hiện bản thân, sáng tạo, ăn nói tốt; phát huy mạnh nhất trong các vai trò cần trình bày, thuyết phục, sáng tạo nội dung, xây dựng thương hiệu cá nhân.",
+  "Kết hợp thêm hành Kim (Hỷ Thần — tài chính, kỹ thuật chính xác, công nghệ, luật) và Thủy (Hỷ Thần phụ — truyền thông, tư vấn, ngoại giao, giao thương quốc tế) làm hướng phát triển tiếp theo, đúng thứ tự dòng chảy cân bằng của lá số.",
   "Tỷ Kiếp vượng (Kỵ Thần) khiến môi trường làm việc dễ có cạnh tranh trực diện — phù hợp hơn với vai trò chủ động dẫn dắt (do Nhật Chủ vượng, đủ sức đứng đầu) thay vì phụ thuộc hoàn toàn vào một tập thể lớn không rõ vai trò.",
 ];
 
@@ -292,9 +293,9 @@ const TG_FULL: Record<TG, string> = {
   THỰC: "Thực Thần", "C.TÀI": "Chính Tài", "T.TÀI": "Thiên Tài", QUAN: "Chính Quan", SÁT: "Thất Sát",
   ẤN: "Chính Ấn", KIÊU: "Thiên Ấn", KIẾP: "Kiếp Tài", TỶ: "Tỷ Kiên", THƯƠNG: "Thương Quan",
 };
-// Dụng = Kim (Tài), Hỷ = Thủy (Quan/Sát) & Thổ (Thực/Thương), Kỵ = Hỏa (Tỷ/Kiếp) & Mộc (Ấn/Kiêu)
+// Dụng = Thổ (Thực/Thương), Hỷ = Kim (Tài) & Thủy (Quan/Sát), Kỵ = Hỏa (Tỷ/Kiếp) & Mộc (Ấn/Kiêu)
 const TG_TIER: Record<TG, "dung" | "hy" | "ky"> = {
-  "C.TÀI": "dung", "T.TÀI": "dung", QUAN: "hy", SÁT: "hy", THỰC: "hy", THƯƠNG: "hy",
+  THỰC: "dung", THƯƠNG: "dung", "C.TÀI": "hy", "T.TÀI": "hy", QUAN: "hy", SÁT: "hy",
   TỶ: "ky", KIẾP: "ky", ẤN: "ky", KIÊU: "ky",
 };
 const NOTE: Record<"dung" | "hy" | "ky", { tinhCam: string; tienBac: string; congViec: string; giaDinh: string; sucKhoe: string }> = {
@@ -362,4 +363,4 @@ export const tamThinTuHinh = {
 };
 
 export const summary =
-  "Đây là lá số Thân vượng, cách Kiến Lộc — Nhật Chủ Đinh Hỏa đắc lệnh tại tháng Ngọ, có gốc vững ở Mùi, lại được Giáp Mộc sinh trợ thêm. Khác với một Thân cực vượng thuần túy, lá số có Thực-Thương (Thổ) và Tài Tinh (Kim) khá dồi dào, tạo thành dòng chảy sinh xuất mạch lạc Hỏa→Thổ→Kim→Thủy. Dụng Thần Kim đã có sẵn lực trong lá số; Hỷ Thần Thủy (Quan Tinh — cũng là chồng trong lá số) là điểm mỏng nhất, cần được nuôi dưỡng qua chính con đường Tài (sự nghiệp/tài chính vững trước, nhân duyên đến sau). Ba Đại Vận đầu đời (8–37 tuổi) thuộc nhóm Kỵ Thần nên giai đoạn này đòi hỏi chủ động và kiên nhẫn nhiều hơn; từ 38 tuổi trở đi vận trình chuyển đều sang đúng hướng Thổ–Kim–Thủy mà lá số cần, mở ra giai đoạn ổn định và thuận lợi rõ rệt nhất trong cả cuộc đời.";
+  "Đây là lá số Thân vượng, cách Kiến Lộc — Nhật Chủ Đinh Hỏa đắc lệnh tại tháng Ngọ, có gốc vững ở Mùi, lại được Giáp Mộc sinh trợ thêm (kết luận Vượng dựa trên đắc lệnh và cách cục, dù nếu chỉ đếm thô tỉ trọng Can Chi thì phe sinh/trợ chỉ ~38.6%, thấp hơn phe tiết/hao/khắc ~61.4% — điều này càng cho thấy lá số có lối thoát/dòng chảy rất tốt chứ không phải vượng bế tắc). Khác với một Thân cực vượng thuần túy, lá số có Thực-Thương (Thổ, Dụng Thần) và Tài Tinh (Kim, Hỷ Thần) khá dồi dào, tạo thành dòng chảy sinh xuất mạch lạc Hỏa→Thổ→Kim→Thủy. Thổ là lực cân bằng có sẵn, hiệu quả ngay từ hiện tại; Thủy (Quan Tinh — cũng là chồng trong lá số) là điểm mỏng nhất ở cuối dòng chảy, cần được nuôi dưỡng qua chính con đường Tài (sự nghiệp/tài chính vững trước, nhân duyên đến sau). Ba Đại Vận đầu đời (8–37 tuổi) thuộc nhóm Kỵ Thần nên giai đoạn này đòi hỏi chủ động và kiên nhẫn nhiều hơn; từ 38 tuổi trở đi vận trình chuyển đều sang đúng hướng Thổ–Kim–Thủy mà lá số cần, mở ra giai đoạn ổn định và thuận lợi rõ rệt nhất trong cả cuộc đời.";
