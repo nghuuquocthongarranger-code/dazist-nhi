@@ -19,7 +19,7 @@ export const STAR_MEANINGS: Record<string, string> = {
   "Phá Quân": "Sao hao tinh, biến động — táo bạo, thích đổi mới và phá cách, cuộc đời thường trải qua nhiều biến động lớn nhỏ.",
 
   // Phụ tinh cát tinh chính
-  "Tá Phù": "Tả Phù — cát tinh phụ tá, đi cùng Hữu Bật, chủ về được người giúp đỡ, quý nhân hai bên nâng đỡ.",
+  "Tả Phù": "Cát tinh phụ tá, đi cùng Hữu Bật, chủ về được người giúp đỡ, quý nhân hai bên nâng đỡ.",
   "Hữu Bật": "Cát tinh phụ tá, đi cùng Tả Phù — chủ về hỗ trợ, hợp tác, được người xung quanh trợ lực.",
   "Văn Xương": "Sao khoa bảng, văn chương — thông minh, có duyên với học vấn, thi cử, giấy tờ, văn bản.",
   "Văn Khúc": "Sao khoa bảng, tài nghệ — thông minh, khéo ăn nói/viết lách, có năng khiếu nghệ thuật.",
@@ -102,6 +102,8 @@ export const STAR_MEANINGS: Record<string, string> = {
   // Bộ "Thái Tuế 12 thần" (an theo Chi năm sinh)
   "Thái Tuế": "Sao chủ về vận niên — được/mất tuỳ cát hung đi kèm, thuộc bộ Thái Tuế 12 thần, ảnh hưởng mạnh năm đương giá trị.",
   "Thiếu Âm": "Trung tính — nhạy cảm, kín đáo, thuộc bộ Thái Tuế 12 thần.",
+  "Thiếu Dương": "Trung tính — năng động, hướng ngoại hơn Thiếu Âm, thuộc cùng bộ sao lưu chuyển theo Chi năm sinh.",
+  "Thiên Thọ": "Cát tinh — sao trường thọ, hỗ trợ sức khoẻ/tuổi thọ, giảm nhẹ ảnh hưởng của các sát tinh về mặt sức khoẻ.",
   "Trực Phù": "Cát tinh — ngay thẳng, minh bạch, thuộc bộ Thái Tuế 12 thần.",
 
   // Phụ tinh khác

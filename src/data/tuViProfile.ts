@@ -130,7 +130,7 @@ export const tuViPalaces: TuViPalace[] = [
       { name: "Thiên Đồng", state: "Miếu" },
       { name: "Thiên Lương", state: "Vượng" },
     ],
-    auxStars: ["Tấu Thư", "Thai Phụ", "Phúc Đức", "Thiên Nguyệt Đức", "Kiếp Sát", "Hoa Cái", "Đường Phù"],
+    auxStars: ["Tấu Thư", "Thai Phù", "Phúc Đức", "Thiên Đức", "Nguyệt Đức", "Kiếp Sát", "Hoa Cái"],
     luuStars: ["Bạch Hổ", "Chỉ Bối", "Thiên Khôi", "Tử Phù"],
     truongSinh: "Trường Sinh",
     summary:
@@ -194,7 +194,7 @@ export const tuViPalaces: TuViPalace[] = [
       { name: "Phá Quân", state: "Vượng" },
     ],
     auxStars: ["Tả Phù", "Hữu Bật", "Phục Binh", "Tang Môn", "Linh Tinh"],
-    luuStars: ["Hối Khí", "Phan An"],
+    luuStars: ["Hối Khí"],
     truongSinh: "Tử",
     summary:
       "Tử Phá tại Phu Thê — bạn đời có cá tính mạnh, chủ kiến rõ ràng, thậm chí có phần cứng cỏi/độc lập; hôn nhân cần cả hai cùng nhường nhịn, tôn trọng không gian riêng của nhau. Có Tả Phù, Hữu Bật đồng cung là điểm tựa giúp mối quan hệ thêm phần vững vàng.",
